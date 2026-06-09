@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "slug": "the-beast",
+    "name": "The Beast",
+    "opened": 1979,
+    "status": "operating",
+    "type": "wood",
+    "manufacturer": "Kings Island",
+    "height": 110,
+    "speed": 64.8,
+    "length": 7359,
+    "records": [
+      "Longest Wooden Coaster"
+    ]
+  }
+]
