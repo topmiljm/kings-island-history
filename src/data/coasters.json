@@ -1,17 +1,84 @@
 [
   {
-    "id": 1,
-    "slug": "the-beast",
+    "id": "racer",
+    "name": "Racer",
+    "slug": "racer",
+    "opened": 1972,
+    "closed": null,
+    "status": "operating",
+    "type": "wood",
+    "manufacturer": "Philadelphia Toboggan Coasters, Inc.",
+    "areaHistory": [
+      {
+        "areaId": "Coney Mall",
+        "from": 1972,
+        "to": null
+      }
+    ],
+    "specs": {}
+  },
+  {
+    "id": "the-beast",
     "name": "The Beast",
+    "slug": "the-beast",
     "opened": 1979,
+    "closed": null,
     "status": "operating",
     "type": "wood",
     "manufacturer": "Kings Island",
-    "height": 110,
-    "speed": 64.8,
-    "length": 7359,
-    "records": [
-      "Longest Wooden Coaster"
-    ]
+    "areaHistory": "Rivertown",
+    "specs": {}
+  },
+  {
+    "id": "adventure-express",
+    "name": "Adventure Express",
+    "slug": "adventure-express",
+    "opened": 1991,
+    "closed": null,
+    "status": "operating",
+    "type": "wood",
+    "manufacturer": "Arrow Dynamics",
+    "areaHistory": "Adventure Port",
+    "specs": {}
+  },
+  {
+    "id": "flight-of-fear",
+    "name": "Flight of Fear",
+    "slug": "flight-of-fear",
+    "opened": 1996,
+    "closed": null,
+    "status": "operating",
+    "type": "steel",
+    "manufacturer": "Premier Rides",
+    "areaId": "area-72",
+    "areaHistory": [
+      {
+        "areaId": "action-zone",
+        "from": 1996,
+        "to": 2019
+      },
+      {
+        "areaId": "area-72",
+        "from": 2020,
+        "to": null
+      }
+    ],
+    "nameEvents": [
+      {
+        "name": "The Outer Limits: Flight of Fear",
+        "year": 1996,
+        "type": "opening",
+        "reason": "Original Paramount branding"
+      },
+      {
+        "name": "Flight of Fear",
+        "year": 2002,
+        "type": "rename",
+        "reason": "Removed licensing tie-in"
+      }
+    ],
+    "specs": {},
+    "timeline": [],
+    "records": []
   }
 ]

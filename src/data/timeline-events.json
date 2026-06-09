@@ -1,0 +1,16 @@
+[
+  {
+    "id": "event-001",
+    "year": 1972,
+    "type": "opening",
+    "coasterId": "racer",
+    "description": "Racer opens with Kings Island."
+  },
+  {
+    "id": "event-002",
+    "year": 1979,
+    "type": "opening",
+    "coasterId": "the-beast",
+    "description": "The Beast opens."
+  }
+]
