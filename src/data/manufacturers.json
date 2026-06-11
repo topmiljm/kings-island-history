@@ -2,11 +2,80 @@
   {
     "id": "arrow-dynamics",
     "name": "Arrow Dynamics",
-    "country": "United States"
+    "country": "United States",
+    "founded": 1946,
+    "status": "defunct"
   },
   {
     "id": "bolliger-mabillard",
     "name": "Bolliger & Mabillard",
-    "country": "Switzerland"
+    "country": "Switzerland",
+    "founded": 1988,
+    "status": "active"
+  },
+  {
+    "id": "premier-rides",
+    "name": "Premier Rides",
+    "country": "United States",
+    "founded": 1994,
+    "status": "active"
+  },
+  {
+    "id": "philadelphia-toboggan-coasters",
+    "name": "Philadelphia Toboggan Coasters",
+    "country": "United States",
+    "founded": 1904,
+    "status": "active"
+  },
+  {
+    "id": "vekoma",
+    "name": "Vekoma",
+    "country": "Netherlands",
+    "founded": 1926,
+    "status": "active"
+  },
+  {
+    "id": "great-coasters-international",
+    "name": "Great Coasters International",
+    "country": "United States",
+    "founded": 1994,
+    "status": "active"
+  },
+  {
+    "id": "kings-island",
+    "name": "Kings Island",
+    "country": "United States",
+    "founded": 1972,
+    "status": "active"
+  },
+  {
+    "id": "anton-schwarzkopf",
+    "name": "Anton Schwarzkopf",
+    "country": "Germany",
+    "founded": 1953,
+    "status": "defunct"
+  },
+  {
+    "id": "togo",
+    "name": "TOGO",
+    "country": "Japan",
+    "founded": 1935,
+    "status": "defunct"
+  }, 
+  {
+    "name":"E&F Miler Industries",
+    "ride": "great-pumpkin-coaster"
+  },
+  {
+    "name": "Roller Coaster Corporation of America",
+    "ride": "son-of-beast"
+  },
+  {
+    "name": "S.D.C.",
+    "ride": "bavarian-beetle"
+  },
+  {
+    "name": "Caripro",
+    "ride": "scooby-ghoster-coaster"
   }
 ]

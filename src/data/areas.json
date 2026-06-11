@@ -1,103 +1,145 @@
 [
   {
     "id": "international-street",
+    "slug": "international-street",
     "name": "International Street",
     "opened": 1972,
+    "closed": null,
     "status": "active",
-    "description": "The main entrance area and central hub of Kings Island."
+    "description": "The main entrance area and central hub of Kings Island.",
+    "predecessorAreaId": null,
+    "successorAreaId": null
   },
   {
     "id": "coney-mall",
+    "slug": "coney-mall",
     "name": "Coney Mall",
     "opened": 1972,
+    "closed": null,
     "status": "active",
-    "description": "An area inspired by Cincinnati's historic Coney Island amusement park."
+    "description": "An area inspired by Cincinnati's historic Coney Island amusement park.",
+    "predecessorAreaId": null,
+    "successorAreaId": null
   },
   {
     "id": "rivertown",
+    "slug": "rivertown",
     "name": "Rivertown",
     "opened": 1972,
+    "closed": null,
     "status": "active",
-    "description": "A frontier-themed area featuring several major roller coasters."
+    "description": "A frontier-themed area featuring several major roller coasters.",
+    "predecessorAreaId": null,
+    "successorAreaId": null
   },
   {
     "id": "planet-snoopy",
+    "slug": "planet-snoopy",
     "name": "Planet Snoopy",
     "opened": 2010,
-    "status": "active",
-    "description": "Family and children's area themed to the Peanuts characters."
+    "closed": 2024,
+    "status": "retired",
+    "description": "Family and children's area themed to the Peanuts characters.",
+    "predecessorAreaId": "nickelodeon-universe",
+    "successorAreaId": "camp-snoopy"
   },
   {
     "id": "camp-snoopy",
+    "slug": "camp-snoopy",
     "name": "Camp Snoopy",
     "opened": 2024,
+    "closed": null,
     "status": "active",
-    "description": "Expansion of the children's area with outdoor adventure theming."
+    "description": "Expansion of the children's area with outdoor adventure theming.",
+    "predecessorAreaId": "planet-snoopy",
+    "successorAreaId": null
   },
   {
     "id": "action-zone",
+    "slug": "action-zone",
     "name": "Action Zone",
     "opened": 1999,
+    "closed": null,
     "status": "active",
-    "description": "Thrill ride area created from the former Safari and Hanna-Barbera sections."
+    "description": "Thrill ride area created from the former Safari and other themed sections.",
+    "predecessorAreaId": null,
+    "successorAreaId": null
   },
   {
     "id": "area-72",
+    "slug": "area-72",
     "name": "Area 72",
     "opened": 2020,
+    "closed": null,
     "status": "active",
-    "description": "Sci-fi themed area centered around Orion and Flight of Fear."
+    "description": "Sci-fi themed area centered around Orion and Flight of Fear.",
+    "predecessorAreaId": null,
+    "successorAreaId": null
   },
   {
     "id": "adventure-port",
+    "slug": "adventure-port",
     "name": "Adventure Port",
     "opened": 2023,
+    "closed": null,
     "status": "active",
-    "description": "Adventure-themed area replacing the former Oktoberfest identity."
+    "description": "Adventure-themed area replacing the former Oktoberfest identity.",
+    "predecessorAreaId": "oktoberfest",
+    "successorAreaId": null
   },
-
   {
     "id": "oktoberfest",
+    "slug": "oktoberfest",
     "name": "Oktoberfest",
     "opened": 1972,
     "closed": 2023,
     "status": "retired",
-    "description": "German-themed area that was later transformed into Adventure Port."
+    "description": "German-themed area that was later transformed into Adventure Port.",
+    "predecessorAreaId": null,
+    "successorAreaId": "adventure-port"
   },
-
   {
     "id": "hanna-barbera-land",
+    "slug": "hanna-barbera-land",
     "name": "Hanna-Barbera Land",
     "opened": 1972,
     "closed": 2009,
     "status": "retired",
-    "description": "Original children's area themed to Hanna-Barbera characters."
+    "description": "Original children's area themed to Hanna-Barbera characters.",
+    "predecessorAreaId": null,
+    "successorAreaId": "planet-snoopy"
   },
-
-  {
-    "id": "nickelodeon-universe",
-    "name": "Nickelodeon Universe",
-    "opened": 2006,
-    "closed": 2009,
-    "status": "retired",
-    "description": "Children's area themed to Nickelodeon characters."
-  },
-
   {
     "id": "nickelodeon-central",
+    "slug": "nickelodeon-central",
     "name": "Nickelodeon Central",
     "opened": 2000,
     "closed": 2005,
     "status": "retired",
-    "description": "Nickelodeon-themed family area that preceded Nickelodeon Universe."
+    "description": "Nickelodeon-themed family area that preceded Nickelodeon Universe.",
+    "predecessorAreaId": null,
+    "successorAreaId": "nickelodeon-universe"
   },
-
+  {
+    "id": "nickelodeon-universe",
+    "slug": "nickelodeon-universe",
+    "name": "Nickelodeon Universe",
+    "opened": 2006,
+    "closed": 2009,
+    "status": "retired",
+    "description": "Children's area themed to Nickelodeon characters.",
+    "predecessorAreaId": "nickelodeon-central",
+    "successorAreaId": "planet-snoopy"
+  },
   {
     "id": "safari",
+    "slug": "safari",
     "name": "Safari",
     "opened": 1974,
     "closed": 1992,
     "status": "retired",
-    "description": "Animal safari attraction area that later became part of Action Zone."
+    "description": "Animal safari attraction area that later influenced the development of Action Zone.",
+    "predecessorAreaId": null,
+    "successorAreaId": "action-zone"
   }
 ]

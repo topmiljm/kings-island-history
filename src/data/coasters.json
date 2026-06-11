@@ -1,84 +1,1083 @@
 [
   {
     "id": "racer",
-    "name": "Racer",
+    "rcdbId": 69,
+    "rcdbUrl": "https://rcdb.com/69.htm",
+    "currentName": "Racer",
     "slug": "racer",
+    "status": "operating",
     "opened": 1972,
     "closed": null,
-    "status": "operating",
-    "type": "wood",
-    "manufacturer": "Philadelphia Toboggan Coasters, Inc.",
-    "areaHistory": [
+    "classification": {
+      "material": "wood",
+      "design": "sit-down",
+      "scale": "extreme",
+      "tags": [
+        "twin",
+        "racing"
+      ]
+    },
+    "manufacturerId": "philadelphia-toboggan-coasters",
+    "currentAreaId": "coney-mall",
+    "areaHistory": "",
+    "nameHistory": [
       {
-        "areaId": "Coney Mall",
+        "name": "Racer",
         "from": 1972,
         "to": null
       }
     ],
-    "specs": {}
+    "specs": {
+      "trackCount": 2,
+      "tracks": [
+        {
+          "name": "Red",
+          "lengthFt": 3415,
+          "heightFt": 88,
+          "speedMph": 53,
+          "inversions": 0,
+          "verticalAngleDeg": 45,
+          "durationMin": "2:00"
+        },
+        {
+          "name": "Blue",
+          "lengthFt": 3415,
+          "heightFt": 88,
+          "speedMph": 53,
+          "inversions": 0,
+          "verticalAngleDeg": 45,
+          "durationMin": "2:00"
+        }
+      ],
+      "capacityPerHour": 2640
+    },
+    "notes": "From 1982 to 2007, trains ran backwards on one of the two tracks. Famously featured in a 1973 Brady Bunch episode filmed at Kings Island."
+  },
+  {
+    "id": "woodstock-express",
+    "rcdbId": 72,
+    "rcdbUrl": "https://rcdb.com/72.htm",
+    "currentName": "Woodstock Express",
+    "slug": "woodstock-express",
+    "status": "operating",
+    "opened": 1972,
+    "closed": null,
+    "classification": {
+      "material": "wood",
+      "design": "sit-down",
+      "scale": "family",
+      "tags": []
+    },
+    "manufacturerId": "philadelphia-toboggan-coasters",
+    "currentAreaId": "planet-snoopy",
+    "areaHistory": "",
+    "nameHistory": [
+      {
+        "name": "Scooby Doo",
+        "from": 1972,
+        "to": 2000
+      },
+      {
+        "name": "Beastie",
+        "from": 2001,
+        "to": 2006
+      },
+      {
+        "name": "Fairly Odd Coaster",
+        "from": 2007,
+        "to": 2009
+      },
+      {
+        "name": "Woodstock Express",
+        "from": 2010,
+        "to": null
+      }
+    ],
+    "specs": {
+      "lengthFt": 1350,
+      "heightFt": 38.6,
+      "speedMph": 35,
+      "inversions": 0,
+      "durationMin": "1:30"
+    },
+    "notes": "A tunnel was added at the bottom of the first drop in 1980 and subsequently removed after the 2005 season."
   },
   {
     "id": "the-beast",
-    "name": "The Beast",
+    "rcdbId": 67,
+    "rcdbUrl": "https://rcdb.com/67.htm",
+    "currentName": "The Beast",
     "slug": "the-beast",
+    "status": "operating",
     "opened": 1979,
     "closed": null,
-    "status": "operating",
-    "type": "wood",
-    "manufacturer": "Kings Island",
-    "areaHistory": "Rivertown",
-    "specs": {}
+    "classification": {
+      "material": "wood",
+      "design": "sit-down",
+      "scale": "extreme",
+      "tags": [
+        "terrain"
+      ]
+    },
+    "manufacturerId": "kings-island",
+    "currentAreaId": "rivertown",
+    "areaHistory": "",
+    "nameHistory": [
+      {
+        "name": "The Beast",
+        "from": 1979,
+        "to": null
+      }
+    ],
+    "specs": {
+      "lengthFt": 7359,
+      "heightFt": 110,
+      "dropFt": 141,
+      "speedMph": 64.8,
+      "inversions": 0,
+      "durationSec": 250,
+      "capacityPerHour": 1200
+    },
+    "records": [
+      {
+        "title": "World's Longest Wooden Roller Coaster",
+        "category": "world",
+        "from": 1979,
+        "to": null,
+        "stillHeld": true
+      }
+    ],
+    "timeline": [
+      {
+        "year": 1979,
+        "type": "opening",
+        "description": "Opened to the public"
+      },
+      {
+        "year": 2022,
+        "type": "retrack",
+        "description": "Major retracking project completed"
+      }
+    ],
+    "notes": "Remains the longest wooden roller coaster in the world since its opening in 1979."
   },
   {
     "id": "adventure-express",
-    "name": "Adventure Express",
+    "rcdbId": 70,
+    "rcdbUrl": "https://rcdb.com/70.htm",
+    "currentName": "Adventure Express",
     "slug": "adventure-express",
+    "status": "operating",
     "opened": 1991,
     "closed": null,
+    "classification": {
+      "material": "steel",
+      "design": "sit-down",
+      "model": "mine train",
+      "scale": "thrill",
+      "tags": [
+        "hybrid",
+        "terrain"
+      ]
+    },
+    "manufacturerId": "arrow-dynamics",
+    "currentAreaId": "adventure-port",
+    "areaHistory": "",
+    "nameHistory": [
+      {
+        "name": "Adventure Express",
+        "from": 1991,
+        "to": null
+      }
+    ],
+    "specs": {
+      "lengthFt": 2963,
+      "heightFt": 63,
+      "speedMph": 35,
+      "inversions": 0,
+      "durationMin": "2:20",
+      "capacityPerHour": 1600
+    },
+    "notes": "Themed by R&R Creative Amusement Designs, Inc. Originally operated three trains; typically two run simultaneously today."
+  },
+  {
+    "id": "the-bat",
+    "rcdbId": 73,
+    "rcdbUrl": "https://rcdb.com/73.htm",
+    "currentName": "The Bat",
+    "slug": "the-bat",
     "status": "operating",
-    "type": "wood",
-    "manufacturer": "Arrow Dynamics",
-    "areaHistory": "Adventure Port",
-    "specs": {}
+    "opened": 1993,
+    "closed": null,
+    "classification": {
+      "material": "steel",
+      "design": "suspended",
+      "model": "suspended coaster",
+      "scale": "thrill",
+      "tags": [
+        "terrain"
+      ]
+    },
+    "manufacturerId": "arrow-dynamics",
+    "currentAreaId": "action-zone",
+    "areaHistory": "",
+    "nameHistory": [
+      {
+        "name": "Top Gun",
+        "from": 1993,
+        "to": 2008
+      },
+      {
+        "name": "Flight Deck",
+        "from": 2008,
+        "to": 2014
+      },
+      {
+        "name": "The Bat",
+        "from": 2014,
+        "to": null
+      }
+    ],
+    "specs": {
+      "lengthFt": 2352,
+      "heightFt": 78,
+      "speedMph": 51,
+      "inversions": 0,
+      "durationMin": "1:52",
+      "capacityPerHour": 1200
+    },
+    "notes": "Station theming designed to resemble an aircraft carrier by John DeCuir, production designer for the film Top Gun."
   },
   {
     "id": "flight-of-fear",
-    "name": "Flight of Fear",
+    "rcdbId": 66,
+    "rcdbUrl": "https://rcdb.com/66.htm",
+    "currentName": "Flight of Fear",
     "slug": "flight-of-fear",
+    "status": "operating",
     "opened": 1996,
     "closed": null,
-    "status": "operating",
-    "type": "steel",
-    "manufacturer": "Premier Rides",
-    "areaId": "area-72",
+    "classification": {
+      "material": "steel",
+      "design": "sit-down",
+      "model": "Catapult Launch Coaster",
+      "scale": "extreme",
+      "tags": [
+        "enclosed",
+        "launched",
+        "indoor"
+      ]
+    },
+    "manufacturerId": "premier-rides",
+    "currentAreaId": "area-72",
     "areaHistory": [
       {
-        "areaId": "action-zone",
+        "area": "Action Zone",
         "from": 1996,
         "to": 2019
       },
       {
-        "areaId": "area-72",
+        "area": "Area 72",
         "from": 2020,
         "to": null
       }
     ],
-    "nameEvents": [
+    "nameHistory": [
       {
-        "name": "The Outer Limits: Flight of Fear",
-        "year": 1996,
-        "type": "opening",
-        "reason": "Original Paramount branding"
+        "name": "Outer Limits: Flight of Fear",
+        "from": 1996,
+        "to": 2001,
+        "reason": "Original Paramount IP branding"
       },
       {
         "name": "Flight of Fear",
-        "year": 2002,
-        "type": "rename",
-        "reason": "Removed licensing tie-in"
+        "from": 2002,
+        "to": null,
+        "reason": "Paramount licensing removed"
       }
     ],
-    "specs": {},
-    "timeline": [],
-    "records": []
+    "specs": {
+      "lengthFt": 2705,
+      "heightFt": 74.2,
+      "speedMph": 54,
+      "inversions": 4,
+      "durationMin": "1:00",
+      "gForce": 4.5,
+      "capacityPerHour": 2000,
+      "elements": [
+        "LIM Launch",
+        "Cobra Roll",
+        "Sidewinder",
+        "Corkscrew"
+      ]
+    },
+    "notes": "Originally launched with over-the-shoulder restraints; replaced with individual lap bars for the 2001 season."
+  },
+  {
+    "id": "invertigo",
+    "rcdbId": 530,
+    "rcdbUrl": "https://rcdb.com/530.htm",
+    "currentName": "Invertigo",
+    "slug": "invertigo",
+    "status": "operating",
+    "opened": 1999,
+    "closed": null,
+    "classification": {
+      "material": "steel",
+      "design": "inverted",
+      "model": "Invertigo",
+      "scale": "extreme",
+      "tags": [
+        "shuttle"
+      ]
+    },
+    "manufacturerId": "vekoma",
+    "currentAreaId": "action-zone",
+    "areaHistory": "",
+    "nameHistory": [
+      {
+        "name": "Face/Off",
+        "from": 1999,
+        "to": 2007
+      },
+      {
+        "name": "Invertigo",
+        "from": 2008,
+        "to": null
+      }
+    ],
+    "specs": {
+      "lengthFt": 1013.8,
+      "heightFt": 131.3,
+      "speedMph": 50,
+      "inversions": 3,
+      "durationMin": "1:30",
+      "gForce": 5,
+      "elements": [
+        "Chain Lift Hill",
+        "Cobra Roll",
+        "Loop",
+        "Chain Lift Hill (reverse)"
+      ]
+    }
+  },
+  {
+    "id": "woodstocks-air-rail",
+    "rcdbId": 1037,
+    "rcdbUrl": "https://rcdb.com/1037.htm",
+    "currentName": "Woodstock's Air Rail",
+    "slug": "woodstocks-air-rail",
+    "status": "operating",
+    "opened": 2001,
+    "closed": null,
+    "classification": {
+      "material": "steel",
+      "design": "inverted",
+      "model": "Suspended Family Coaster 342m",
+      "scale": "family",
+      "tags": []
+    },
+    "manufacturerId": "vekoma",
+    "currentAreaId": "camp-snoopy",
+    "areaHistory": "",
+    "nameHistory": [
+      {
+        "name": "Rugrats Runaway Reptar",
+        "from": 2001,
+        "to": 2005
+      },
+      {
+        "name": "Flying Ace Aerial Chase",
+        "from": 2006,
+        "to": 2023
+      },
+      {
+        "name": "Woodstock's Air Rail",
+        "from": 2024,
+        "to": null
+      }
+    ],
+    "specs": {
+      "lengthFt": 1122,
+      "heightFt": 48.6,
+      "speedMph": 26,
+      "inversions": 0,
+      "durationMin": "1:30",
+      "gForce": 2.2,
+      "capacityPerHour": 650
+    }
+  },
+  {
+    "id": "queen-city-stunt-coaster",
+    "rcdbId": 2860,
+    "rcdbUrl": "https://rcdb.com/2860.htm",
+    "currentName": "Queen City Stunt Coaster",
+    "slug": "queen-city-stunt-coaster",
+    "status": "operating",
+    "opened": 2005,
+    "closed": null,
+    "classification": {
+      "material": "steel",
+      "design": "sit-down",
+      "scale": "thrill",
+      "tags": [
+        "launched"
+      ]
+    },
+    "manufacturerId": "premier-rides",
+    "currentAreaId": "coney-mall",
+    "areaHistory": "",
+    "nameHistory": [
+      {
+        "name": "Italian Job: Stunt Track",
+        "from": 2005,
+        "to": 2007,
+        "reason": "Themed to 2003 Paramount film"
+      },
+      {
+        "name": "Backlot Stunt Coaster",
+        "from": 2008,
+        "to": 2023
+      },
+      {
+        "name": "Queen City Stunt Coaster",
+        "from": 2024,
+        "to": null
+      }
+    ],
+    "specs": {
+      "lengthFt": 1960,
+      "heightFt": 45.2,
+      "dropFt": 31.2,
+      "speedMph": 40,
+      "inversions": 0,
+      "durationMin": "1:04",
+      "elements": [
+        "LIM Launch (0–40 mph in 3s)",
+        "LIM Launch (reverse)"
+      ]
+    }
+  },
+  {
+    "id": "diamondback",
+    "rcdbId": 4253,
+    "rcdbUrl": "https://rcdb.com/4253.htm",
+    "currentName": "Diamondback",
+    "slug": "diamondback",
+    "status": "operating",
+    "opened": 2009,
+    "closed": null,
+    "classification": {
+      "material": "steel",
+      "design": "sit-down",
+      "model": "Hyper Coaster",
+      "scale": "extreme",
+      "tags": []
+    },
+    "manufacturerId": "bolliger-mabillard",
+    "currentAreaId": "rivertown",
+    "areaHistory": "",
+    "nameHistory": [
+      {
+        "name": "Diamondback",
+        "from": 2009,
+        "to": null
+      }
+    ],
+    "specs": {
+      "lengthFt": 5282,
+      "heightFt": 230,
+      "dropFt": 215,
+      "speedMph": 80,
+      "inversions": 0,
+      "verticalAngleDeg": 74,
+      "durationMin": "3:00",
+      "capacityPerHour": 1620,
+      "costUSD": 22000000,
+      "elements": [
+        "230ft Chain Lift Hill",
+        "215ft Drop",
+        "Splash Effect"
+      ]
+    }
+  },
+  {
+    "id": "banshee",
+    "rcdbId": 6640,
+    "rcdbUrl": "https://rcdb.com/6640.htm",
+    "currentName": "Banshee",
+    "slug": "banshee",
+    "status": "operating",
+    "opened": 2014,
+    "closed": null,
+    "classification": {
+      "material": "steel",
+      "design": "inverted",
+      "model": "Inverted Coaster",
+      "scale": "extreme",
+      "tags": []
+    },
+    "manufacturerId": "bolliger-mabillard",
+    "currentAreaId": "action-zone",
+    "areaHistory": "",
+    "nameHistory": [
+      {
+        "name": "Banshee",
+        "from": 2014,
+        "to": null
+      }
+    ],
+    "specs": {
+      "lengthFt": 4124,
+      "heightFt": 167,
+      "dropFt": 150,
+      "speedMph": 68,
+      "inversions": 7,
+      "durationMin": "2:40",
+      "capacityPerHour": 1650,
+      "costUSD": 24000000,
+      "elements": [
+        "Chain Lift Hill",
+        "Dive Loop",
+        "Loop",
+        "Zero-G Roll",
+        "Pretzel Knot",
+        "Loop",
+        "In-Line Twist"
+      ]
+    },
+    "notes": "Built on the former site of Son of Beast."
+  },
+  {
+    "id": "mystic-timbers",
+    "rcdbId": 14116,
+    "rcdbUrl": "https://rcdb.com/14116.htm",
+    "currentName": "Mystic Timbers",
+    "slug": "mystic-timbers",
+    "status": "operating",
+    "opened": 2017,
+    "closed": null,
+    "classification": {
+      "material": "wood",
+      "design": "sit-down",
+      "model": "Custom Wooden Coaster",
+      "scale": "extreme",
+      "tags": []
+    },
+    "manufacturerId": "great-coasters-international",
+    "currentAreaId": "rivertown",
+    "areaHistory": "",
+    "nameHistory": [
+      {
+        "name": "Mystic Timbers",
+        "from": 2017,
+        "to": null
+      }
+    ],
+    "specs": {
+      "lengthFt": 3265,
+      "heightFt": 109.2,
+      "speedMph": 53,
+      "inversions": 0,
+      "elements": [
+        "Chain Lift Hill",
+        "Tunnel"
+      ]
+    }
+  },
+  {
+    "id": "orion",
+    "rcdbId": 11437,
+    "rcdbUrl": "https://rcdb.com/11437.htm",
+    "currentName": "Orion",
+    "slug": "orion",
+    "status": "operating",
+    "opened": 2020,
+    "closed": null,
+    "classification": {
+      "material": "steel",
+      "design": "sit-down",
+      "model": "Giga Coaster",
+      "scale": "extreme",
+      "tags": []
+    },
+    "manufacturerId": "bolliger-mabillard",
+    "currentAreaId": "area-72",
+    "areaHistory": "",
+    "nameHistory": [
+      {
+        "name": "Orion",
+        "from": 2020,
+        "to": null
+      }
+    ],
+    "specs": {
+      "lengthFt": 5321,
+      "heightFt": 287,
+      "dropFt": 300,
+      "speedMph": 91,
+      "inversions": 0,
+      "verticalAngleDeg": 85,
+      "durationMin": "3:00",
+      "capacityPerHour": 1650,
+      "costUSD": 31000000,
+      "elements": [
+        "287ft Chain Lift Hill",
+        "300ft Drop at 85°",
+        "7 additional hills"
+      ]
+    },
+    "notes": "The 7th giga coaster in the world at time of opening."
+  },
+  {
+    "id": "great-pumpkin-coaster",
+    "rcdbId": 74,
+    "rcdbUrl": "https://rcdb.com/74.htm",
+    "currentName": "Great Pumpkin Coaster",
+    "slug": "great-pumpkin-coaster",
+    "status": "operating",
+    "opened": 1972,
+    "closed": null,
+    "classification": {
+      "material": "steel",
+      "design": "sit-down",
+      "model": "Family Coaster Oval",
+      "scale": "family",
+      "tags": [
+        "oval"
+      ]
+    },
+    "manufacturerId": "E&F Miler Industries",
+    "currentAreaId": "camp-snoopy",
+    "areaHistory": "",
+    "nameHistory": [
+      {
+        "name": "Scooby Zoom",
+        "from": 1972,
+        "to": 2000
+      },
+      {
+        "name": "Top Cat's Taxi Jam",
+        "from": 2001,
+        "to": 2006
+      },
+      {
+        "name": "Little Bill's Giggle Coaster",
+        "from": 2007,
+        "to": 2009
+      },
+      {
+        "name": "Great Pumpkin Coaster",
+        "from": 2010,
+        "to": null
+      }
+    ],
+    "specs": {
+      "lengthFt": 199.3,
+      "heightFt": 8,
+      "inversions": 0,
+      "durationMin": "0:52"
+    }
+  },
+  {
+    "id": "snoopys-soap-box-racers",
+    "rcdbId": 21087,
+    "rcdbUrl": "https://rcdb.com/21087.htm",
+    "currentName": "Snoopy's Soap Box Racers",
+    "slug": "snoopys-soap-box-racers",
+    "status": "operating",
+    "opened": 2024,
+    "closed": null,
+    "classification": {
+      "material": "steel",
+      "design": "sit-down",
+      "model": "Family Boomerang 208m (Rebound)",
+      "scale": "family",
+      "tags": []
+    },
+    "manufacturerId": "vekoma",
+    "currentAreaId": "camp-snoopy",
+    "areaHistory": "",
+    "nameHistory": [
+      {
+        "name": "Snoopy's Soap Box Racers",
+        "from": 2024,
+        "to": null
+      }
+    ],
+    "specs": {
+      "lengthFt": 672.6,
+      "heightFt": 75.5,
+      "speedMph": 37.3,
+      "inversions": 0,
+      "durationMin": "1:36",
+      "gForce": 3
+    }
+  },
+  {
+    "id": "vortex",
+    "rcdbId": 71,
+    "rcdbUrl": "https://rcdb.com/71.htm",
+    "currentName": "Vortex",
+    "slug": "vortex",
+    "status": "removed",
+    "opened": 1987,
+    "closed": 2019,
+    "classification": {
+      "material": "steel",
+      "design": "sit-down",
+      "model": "Custom Looping Coaster",
+      "scale": "extreme",
+      "tags": []
+    },
+    "manufacturerId": "arrow-dynamics",
+    "currentAreaId": "coney-mall",
+    "areaHistory": "",
+    "nameHistory": [
+      {
+        "name": "Vortex",
+        "from": 1987,
+        "to": 2019
+      }
+    ],
+    "specs": {
+      "lengthFt": 3800,
+      "heightFt": 148,
+      "dropFt": 138,
+      "speedMph": 55,
+      "inversions": 6,
+      "verticalAngleDeg": 55,
+      "durationMin": "2:30",
+      "capacityPerHour": 1600,
+      "elements": [
+        "Chain Lift Hill",
+        "Loop",
+        "Loop",
+        "Double Corkscrew",
+        "Batwing"
+      ]
+    },
+    "notes": "Trains were sent to Carowinds for use on Carolina Cyclone after removal."
+  },
+  {
+    "id": "son-of-beast",
+    "rcdbId": 584,
+    "rcdbUrl": "https://rcdb.com/584.htm",
+    "currentName": "Son of Beast",
+    "slug": "son-of-beast",
+    "status": "removed",
+    "opened": 2000,
+    "closed": 2012,
+    "classification": {
+      "material": "wood",
+      "design": "sit-down",
+      "scale": "extreme",
+      "tags": [
+        "terrain"
+      ]
+    },
+    "manufacturerId": "Roller Coaster Corporation of America",
+    "currentAreaId": "action-zone",
+    "areaHistory": "",
+    "nameHistory": [
+      {
+        "name": "Son of Beast",
+        "from": 2000,
+        "to": 2012
+      }
+    ],
+    "specs": {
+      "lengthFt": 7032,
+      "heightFt": 218,
+      "dropFt": 214,
+      "speedMph": 78.4,
+      "inversions": 0,
+      "verticalAngleDeg": 55.7,
+      "durationMin": "2:20",
+      "gForce": 4.5,
+      "capacityPerHour": 1600
+    },
+    "timeline": [
+      {
+        "year": 2000,
+        "type": "opening",
+        "description": "Opened with a 118ft vertical loop — only wooden coaster in the world with a loop at the time"
+      },
+      {
+        "year": 2006,
+        "type": "closure",
+        "description": "Closed for the remainder of the season due to operational issues"
+      },
+      {
+        "year": 2007,
+        "type": "modification",
+        "description": "Vertical loop removed; lighter Gerstlauer trains installed"
+      },
+      {
+        "year": 2009,
+        "type": "closure",
+        "description": "Closed following an incident; never reopened"
+      },
+      {
+        "year": 2012,
+        "type": "removal",
+        "description": "Demolished; site later used for Banshee"
+      }
+    ],
+    "notes": "When it opened, was the tallest and fastest wooden coaster in the world, and the only wood coaster with a loop."
+  },
+  {
+    "id": "firehawk",
+    "rcdbId": 3793,
+    "rcdbUrl": "https://rcdb.com/3793.htm",
+    "currentName": "Firehawk",
+    "slug": "firehawk",
+    "status": "removed",
+    "opened": 2007,
+    "closed": 2018,
+    "classification": {
+      "material": "steel",
+      "design": "flying",
+      "model": "Flying Dutchman (1018m)",
+      "scale": "extreme",
+      "tags": [
+        "dual-station"
+      ]
+    },
+    "manufacturerId": "vekoma",
+    "currentAreaId": "action-zone",
+    "areaHistory": "",
+    "nameHistory": [
+      {
+        "name": "X-Flight",
+        "from": 2001,
+        "to": 2006,
+        "park": "Geauga Lake"
+      },
+      {
+        "name": "Firehawk",
+        "from": 2007,
+        "to": 2018,
+        "park": "Kings Island"
+      }
+    ],
+    "specs": {
+      "lengthFt": 3339.9,
+      "heightFt": 115,
+      "speedMph": 50,
+      "inversions": 5,
+      "durationMin": "2:10",
+      "gForce": 4.3,
+      "capacityPerHour": 1430,
+      "elements": [
+        "Chain Lift Hill",
+        "Lie to Fly",
+        "Horseshoe",
+        "Fly to Lie",
+        "Loop",
+        "In-Line Twist (x2)"
+      ]
+    },
+    "notes": "Relocated from Geauga Lake & Wildwater Kingdom where it operated as X-Flight."
+  },
+  {
+    "id": "king-cobra",
+    "rcdbId": 68,
+    "rcdbUrl": "https://rcdb.com/68.htm",
+    "currentName": "King Cobra",
+    "slug": "king-cobra",
+    "status": "removed",
+    "opened": 1984,
+    "closed": 2001,
+    "classification": {
+      "material": "steel",
+      "design": "stand-up",
+      "model": "Astro Comet",
+      "scale": "extreme",
+      "tags": []
+    },
+    "manufacturerId": "togo",
+    "currentAreaId": "coney-mall",
+    "areaHistory": "",
+    "nameHistory": [
+      {
+        "name": "King Cobra",
+        "from": 1984,
+        "to": 2001
+      }
+    ],
+    "specs": {
+      "lengthFt": 2219,
+      "heightFt": 95,
+      "speedMph": 50,
+      "inversions": 1,
+      "durationMin": "2:00",
+      "capacityPerHour": 1250,
+      "costUSD": 3000000,
+      "elements": [
+        "Chain Lift Hill",
+        "Loop"
+      ]
+    },
+    "notes": "Was the world's first modern stand-up roller coaster."
+  },
+  {
+    "id": "the-bat-original",
+    "rcdbId": 627,
+    "rcdbUrl": "https://rcdb.com/627.htm",
+    "currentName": "The Bat (original)",
+    "slug": "the-bat-original",
+    "status": "removed",
+    "opened": 1981,
+    "closed": 1983,
+    "classification": {
+      "material": "steel",
+      "design": "suspended",
+      "model": "Suspended Coaster",
+      "scale": "thrill",
+      "tags": []
+    },
+    "manufacturerId": "arrow-dynamics",
+    "currentAreaId": "rivertown",
+    "areaHistory": "",
+    "nameHistory": [
+      {
+        "name": "The Bat",
+        "from": 1981,
+        "to": 1983
+      }
+    ],
+    "specs": {
+      "lengthFt": 2456,
+      "heightFt": 100,
+      "speedMph": 34,
+      "inversions": 0,
+      "capacityPerHour": 1700,
+      "costUSD": 3800000
+    },
+    "notes": "First suspended coaster ever built. Plagued with mechanical problems; closed permanently in 1983. Cars could swing up to 100°."
+  },
+  {
+    "id": "screamin-demon",
+    "rcdbId": 313,
+    "rcdbUrl": "https://rcdb.com/313.htm",
+    "currentName": "Demon / Screamin' Demon",
+    "slug": "screamin-demon",
+    "status": "relocated",
+    "opened": 1977,
+    "closed": 1987,
+    "classification": {
+      "material": "steel",
+      "design": "sit-down",
+      "model": "Launched Loop",
+      "scale": "extreme",
+      "tags": [
+        "shuttle",
+        "shuttle-loop"
+      ]
+    },
+    "manufacturerId": "arrow-dynamics",
+    "currentAreaId": "coney-mall",
+    "areaHistory": "",
+    "nameHistory": [
+      {
+        "name": "Screamin' Demon",
+        "from": 1977,
+        "to": 1986
+      },
+      {
+        "name": "Demon",
+        "from": 1987,
+        "to": 1987
+      }
+    ],
+    "specs": {
+      "lengthFt": 635,
+      "heightFt": 56,
+      "dropFt": 47,
+      "speedMph": 45,
+      "inversions": 1,
+      "durationMin": "1:06",
+      "gForce": 4,
+      "elements": [
+        "Electric Winch Launch",
+        "Loop",
+        "Electric Winch Launch (reverse)"
+      ]
+    },
+    "notes": "First Arrow Launched Loop to operate for the public. Relocated to Camden Park as Thunderbolt Express after Kings Island."
+  },
+  {
+    "id": "bavarian-beetle",
+    "rcdbId": 626,
+    "rcdbUrl": "https://rcdb.com/626.htm",
+    "currentName": "Bavarian Beetle",
+    "slug": "bavarian-beetle",
+    "status": "removed",
+    "opened": 1976,
+    "closed": 1991,
+    "classification": {
+      "material": "steel",
+      "design": "sit-down",
+      "model": "Galaxi",
+      "scale": "thrill",
+      "tags": [
+        "zyklon-galaxi"
+      ]
+    },
+    "manufacturerId": "S.D.C.",
+    "currentAreaId": "oktoberfest",
+    "areaHistory": "",
+    "nameHistory": [
+      {
+        "name": "Bavarian Beetle",
+        "from": 1976,
+        "to": 1991
+      }
+    ],
+    "specs": {
+      "lengthFt": 800,
+      "heightFt": 45,
+      "inversions": 0
+    },
+    "notes": "Relocated from Coney Island (Cincinnati) where it was known as Galaxi."
+  },
+  {
+    "id": "scooby-ghoster-coaster",
+    "rcdbId": 505,
+    "rcdbUrl": "https://rcdb.com/505.htm",
+    "currentName": "Scooby's Ghoster Coaster",
+    "slug": "scooby-ghoster-coaster",
+    "status": "removed",
+    "opened": 1999,
+    "closed": 2009,
+    "classification": {
+      "material": "steel",
+      "design": "suspended",
+      "model": "Batflyer",
+      "scale": "family",
+      "tags": [
+        "straddled-seating"
+      ]
+    },
+    "manufacturerId": "Caripro",
+    "currentAreaId": "camp-snoopy",
+    "areaHistory": "",
+    "nameHistory": [
+      {
+        "name": "Scooby's Ghoster Coaster",
+        "from": 1999,
+        "to": 2009
+      }
+    ],
+    "specs": {
+      "heightFt": 35,
+      "speedMph": 8,
+      "inversions": 0,
+      "durationMin": "0:50",
+      "elements": [
+        "Elevator Lift"
+      ]
+    }
   }
 ]
