@@ -2,9 +2,151 @@
   {
     "id": "record-001",
     "coasterId": "the-beast",
-    "title": "Longest Wooden Coaster",
+    "title": "World's Longest Wooden Coaster",
     "category": "world",
     "yearAwarded": 1979,
-    "stillHeld": true
+    "yearLost": null,
+    "stillHeld": true,
+    "notes": "At 7,359 ft, The Beast has held this record since opening day. Listed in the Guinness Book of World Records."
+  },
+  {
+    "id": "record-002",
+    "coasterId": "the-beast",
+    "title": "World's Tallest Wooden Coaster",
+    "category": "world",
+    "yearAwarded": 1979,
+    "yearLost": 1994,
+    "stillHeld": false,
+    "notes": "Held until Mean Streak at Cedar Point (161 ft) opened in 1994."
+  },
+  {
+    "id": "record-003",
+    "coasterId": "the-beast",
+    "title": "World's Fastest Wooden Coaster",
+    "category": "world",
+    "yearAwarded": 1979,
+    "yearLost": 1994,
+    "stillHeld": false,
+    "notes": "Held until Mean Streak at Cedar Point opened in 1994."
+  },
+  {
+    "id": "record-004",
+    "coasterId": "screamin-demon",
+    "title": "First Arrow Dynamics Launched Loop to Open to the Public",
+    "category": "world",
+    "yearAwarded": 1977,
+    "yearLost": null,
+    "stillHeld": true,
+    "notes": "Screamin' Demon opened April 16, 1977, as the first Arrow Launched Loop to operate publicly, and the first looping coaster at Kings Island. (Schwarzkopf/Intamin's shuttle loop debuted separately at Kings Dominion the same year.)"
+  },
+  {
+    "id": "record-005",
+    "coasterId": "the-bat-original",
+    "title": "World's First Modern Suspended Roller Coaster",
+    "category": "world",
+    "yearAwarded": 1981,
+    "yearLost": null,
+    "stillHeld": true,
+    "notes": "The Bat opened April 26, 1981, as the first modern suspended coaster — cars hang below the track and swing freely. Arrow billed it as 'the first of its kind.' Earlier obscure attempts (e.g. Alpen-Flug, 1975) predated it but were not comparable in scale or design."
+  },
+  {
+    "id": "record-006",
+    "coasterId": "king-cobra",
+    "title": "World's First Modern Purpose-Built Stand-Up Coaster",
+    "category": "world",
+    "yearAwarded": 1984,
+    "yearLost": null,
+    "stillHeld": true,
+    "notes": "King Cobra opened in 1984 as the world's first modern stand-up roller coaster with a vertical loop. Built by TOGO."
+  },
+  {
+    "id": "record-007",
+    "coasterId": "vortex",
+    "title": "World's Tallest Full-Circuit Roller Coaster",
+    "category": "world",
+    "yearAwarded": 1987,
+    "yearLost": 1988,
+    "stillHeld": false,
+    "notes": "Vortex stood 148 ft at opening and claimed the record for tallest full-circuit coaster. Lost to Shockwave at Six Flags Great America (170 ft) in 1988."
+  },
+  {
+    "id": "record-008",
+    "coasterId": "vortex",
+    "title": "World's Highest Drop on a Steel Coaster",
+    "category": "world",
+    "yearAwarded": 1987,
+    "yearLost": 1988,
+    "stillHeld": false,
+    "notes": "Vortex's 138 ft drop took this record from Mindbender at Galaxyland. Lost to Shockwave at Six Flags Great America in 1988."
+  },
+  {
+    "id": "record-009",
+    "coasterId": "vortex",
+    "title": "First Roller Coaster with Six Inversions",
+    "category": "world",
+    "yearAwarded": 1987,
+    "yearLost": 1988,
+    "stillHeld": false,
+    "notes": "Vortex was the first coaster in the world to send riders through six inversions on a continuous circuit. Surpassed by Shockwave at Six Flags Great America (seven inversions) in 1988."
+  },
+  {
+    "id": "record-010",
+    "coasterId": "son-of-beast",
+    "title": "World's Tallest Wooden Coaster",
+    "category": "world",
+    "yearAwarded": 2000,
+    "yearLost": 2011,
+    "stillHeld": false,
+    "notes": "Son of Beast stood 218 ft at opening. Lost to Intimidator 305's wooden equivalent; specifically surpassed by Goliath-era coasters by the early 2010s."
+  },
+  {
+    "id": "record-011",
+    "coasterId": "son-of-beast",
+    "title": "World's Fastest Wooden Coaster",
+    "category": "world",
+    "yearAwarded": 2000,
+    "yearLost": 2011,
+    "stillHeld": false,
+    "notes": "Son of Beast reached 78.4 mph at opening. Record subsequently broken by faster wooden coasters in the 2010s."
+  },
+  {
+    "id": "record-012",
+    "coasterId": "son-of-beast",
+    "title": "World's Only Looping Wooden Coaster",
+    "category": "world",
+    "yearAwarded": 2000,
+    "yearLost": 2007,
+    "stillHeld": false,
+    "notes": "Son of Beast opened with a 118 ft steel vertical loop — the only wooden coaster in the world with a loop. The loop was removed prior to the 2007 season."
+  },
+  {
+    "id": "record-013",
+    "coasterId": "banshee",
+    "title": "World's Longest Inverted Coaster",
+    "category": "world",
+    "yearAwarded": 2014,
+    "yearLost": null,
+    "stillHeld": true,
+    "notes": "Banshee's 4,124 ft of track makes it the longest inverted roller coaster in the world. Still held as of 2025."
+  },
+  {
+    "id": "record-014",
+    "coasterId": "orion",
+    "title": "7th Giga Coaster Built Worldwide",
+    "category": "world",
+    "yearAwarded": 2020,
+    "yearLost": null,
+    "stillHeld": true,
+    "notes": "Orion (300 ft drop, 91 mph) was the 7th giga coaster constructed globally when it opened in 2020."
+  },
+  {
+    "id": "record-015",
+    "coasterId": "orion",
+    "title": "Kings Island's Tallest, Fastest, and Longest Steel Coaster",
+    "category": "park",
+    "yearAwarded": 2020,
+    "yearLost": null,
+    "stillHeld": true,
+    "notes": "At 287 ft tall, 91 mph, and 5,321 ft of track, Orion holds all three superlative records within the park for steel coasters."
   }
 ]
