@@ -453,7 +453,7 @@
       "inversions": 0,
       "durationMin": "1:04",
       "elements": [
-        "LIM Launch (0–40 mph in 3s)",
+        "LIM Launch (0-40 mph in 3s)",
         "LIM Launch (reverse)"
       ]
     }
@@ -623,7 +623,7 @@
       "costUSD": 31000000,
       "elements": [
         "287ft Chain Lift Hill",
-        "300ft Drop at 85°",
+        "300ft Drop at 85 degrees",
         "7 additional hills"
       ]
     },
@@ -647,7 +647,7 @@
         "oval"
       ]
     },
-    "manufacturerId": "E&F Miler Industries",
+    "manufacturerId": "ef-miler-industries",
     "currentAreaId": "camp-snoopy",
     "areaHistory": "",
     "nameHistory": [
@@ -776,7 +776,7 @@
         "terrain"
       ]
     },
-    "manufacturerId": "Roller Coaster Corporation of America",
+    "manufacturerId": "roller-coaster-corporation-of-america",
     "currentAreaId": "action-zone",
     "areaHistory": "",
     "nameHistory": [
@@ -801,7 +801,7 @@
       {
         "year": 2000,
         "type": "opening",
-        "description": "Opened with a 118ft vertical loop — only wooden coaster in the world with a loop at the time"
+        "description": "Opened with a 118ft vertical loop \u2014 only wooden coaster in the world with a loop at the time"
       },
       {
         "year": 2006,
@@ -955,7 +955,7 @@
       "capacityPerHour": 1700,
       "costUSD": 3800000
     },
-    "notes": "First suspended coaster ever built. Plagued with mechanical problems; closed permanently in 1983. Cars could swing up to 100°."
+    "notes": "First suspended coaster ever built. Plagued with mechanical problems; closed permanently in 1983. Cars could swing up to 100 degrees."
   },
   {
     "id": "screamin-demon",
@@ -1025,7 +1025,7 @@
         "zyklon-galaxi"
       ]
     },
-    "manufacturerId": "S.D.C.",
+    "manufacturerId": "sdc",
     "currentAreaId": "oktoberfest",
     "areaHistory": "",
     "nameHistory": [
@@ -1060,7 +1060,7 @@
         "straddled-seating"
       ]
     },
-    "manufacturerId": "Caripro",
+    "manufacturerId": "caripro",
     "currentAreaId": "camp-snoopy",
     "areaHistory": "",
     "nameHistory": [

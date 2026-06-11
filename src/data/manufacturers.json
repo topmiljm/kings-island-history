@@ -4,78 +4,105 @@
     "name": "Arrow Dynamics",
     "country": "United States",
     "founded": 1946,
-    "status": "defunct"
+    "defunct": 2002,
+    "status": "defunct",
+    "notes": "Pioneer of the modern steel roller coaster. Invented the tubular steel track, corkscrew, suspended coaster, and stand-up coaster."
   },
   {
     "id": "bolliger-mabillard",
     "name": "Bolliger & Mabillard",
+    "abbreviation": "B&M",
     "country": "Switzerland",
     "founded": 1988,
-    "status": "active"
+    "status": "active",
+    "notes": "Known for extremely smooth, reliable coasters. Responsible for Kings Island's Diamondback (hyper), Banshee (inverted), and Orion (giga)."
   },
   {
     "id": "premier-rides",
     "name": "Premier Rides",
     "country": "United States",
     "founded": 1994,
-    "status": "active"
+    "status": "active",
+    "notes": "Specializes in linear induction motor (LIM) launched coasters. Built both Flight of Fear and the former Italian Job/Backlot Stunt Coaster at Kings Island."
   },
   {
     "id": "philadelphia-toboggan-coasters",
-    "name": "Philadelphia Toboggan Coasters",
+    "name": "Philadelphia Toboggan Coasters, Inc.",
+    "abbreviation": "PTC",
     "country": "United States",
     "founded": 1904,
-    "status": "active"
+    "status": "active",
+    "notes": "One of the oldest coaster manufacturers in the world. Built the Racer and Woodstock Express at Kings Island, both designed by the legendary John C. Allen."
   },
   {
     "id": "vekoma",
     "name": "Vekoma",
     "country": "Netherlands",
     "founded": 1926,
-    "status": "active"
+    "status": "active",
+    "notes": "Dutch manufacturer responsible for Invertigo, Woodstock's Air Rail, Snoopy's Soap Box Racers, and the former Firehawk at Kings Island."
   },
   {
     "id": "great-coasters-international",
     "name": "Great Coasters International",
+    "abbreviation": "GCI",
     "country": "United States",
     "founded": 1994,
-    "status": "active"
+    "status": "active",
+    "notes": "Sunbury, Pennsylvania-based wooden coaster specialist. Built Mystic Timbers (2017) and also performs re-tracking work on other manufacturers' coasters."
   },
   {
     "id": "kings-island",
     "name": "Kings Island",
     "country": "United States",
     "founded": 1972,
-    "status": "active"
-  },
-  {
-    "id": "anton-schwarzkopf",
-    "name": "Anton Schwarzkopf",
-    "country": "Germany",
-    "founded": 1953,
-    "status": "defunct"
+    "status": "active",
+    "notes": "The park designed and built The Beast in-house. It remains the world's longest wooden roller coaster."
   },
   {
     "id": "togo",
     "name": "TOGO",
     "country": "Japan",
     "founded": 1935,
-    "status": "defunct"
-  }, 
-  {
-    "name":"E&F Miler Industries",
-    "ride": "great-pumpkin-coaster"
+    "defunct": 2002,
+    "status": "defunct",
+    "notes": "Japanese manufacturer best known for stand-up coasters. Built King Cobra (1984), the world's first modern stand-up roller coaster."
   },
   {
+    "id": "ef-miler-industries",
+    "name": "E&F Miler Industries",
+    "formerNames": ["Miler Manufacturing", "Miler Coaster, Inc."],
+    "country": "United States",
+    "founded": 1948,
+    "status": "active",
+    "notes": "Family-owned Portland, Oregon firm founded by Carl Miler in the late 1940s. Relaunched by his son Fred Miler in 1989 and renamed E&F Miler Industries in 2013 when Eric Miler joined. Built the Great Pumpkin Coaster at Kings Island in 1992."
+  },
+  {
+    "id": "roller-coaster-corporation-of-america",
     "name": "Roller Coaster Corporation of America",
-    "ride": "son-of-beast"
+    "abbreviation": "RCCA",
+    "country": "United States",
+    "founded": 1979,
+    "defunct": 2005,
+    "status": "defunct",
+    "notes": "Atlanta-based wooden coaster builder founded by Michael and Stephen Black. Built Son of Beast (2000), which was the world's tallest, fastest, and first looping wooden coaster. A lawsuit with Kings Island over construction quality followed the ride's deterioration. Ceased operations around 2005."
   },
   {
+    "id": "sdc",
     "name": "S.D.C.",
-    "ride": "bavarian-beetle"
+    "country": "Italy",
+    "founded": 1968,
+    "defunct": 1993,
+    "status": "defunct",
+    "notes": "Italian manufacturer founded by Walter Spaggiari, Mack D. Duce, and Giancarlo Casoli. Best known for the mass-produced portable Galaxi model coaster, of which over 50 were built worldwide. Filed for bankruptcy in 1993. The Bavarian Beetle at Kings Island was a Galaxi model."
   },
   {
+    "id": "caripro",
     "name": "Caripro",
-    "ride": "scooby-ghoster-coaster"
+    "country": "Netherlands",
+    "founded": 1997,
+    "defunct": 2001,
+    "status": "defunct",
+    "notes": "Small Dutch manufacturer based in Limburg, founded by Hans Gubbels (former Vekoma employee). Built 9 coasters, primarily the Batflyer suspended family model. Acquired by Vekoma in 2000–2001 and liquidated shortly after. The former Scooby's Ghoster Coaster at Kings Island was a Batflyer."
   }
 ]
