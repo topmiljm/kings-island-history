@@ -19,7 +19,13 @@
     },
     "manufacturerId": "philadelphia-toboggan-coasters",
     "currentAreaId": "coney-mall",
-    "areaHistory": "",
+    "areaHistory": [
+      {
+        "areaId": "coney-mall",
+        "from": 1972,
+        "to": null
+      }
+    ],
     "nameHistory": [
       {
         "name": "Racer",
@@ -70,7 +76,28 @@
     },
     "manufacturerId": "philadelphia-toboggan-coasters",
     "currentAreaId": "planet-snoopy",
-    "areaHistory": "",
+    "areaHistory": [
+      {
+        "areaId": "hanna-barbera-land",
+        "from": 1972,
+        "to": 1999
+      },
+      {
+        "areaId": "nickelodeon-central",
+        "from": 2000,
+        "to": 2005
+      },
+      {
+        "areaId": "nickelodeon-universe",
+        "from": 2006,
+        "to": 2009
+      },
+      {
+        "areaId": "planet-snoopy",
+        "from": 2010,
+        "to": null
+      }
+    ],
     "nameHistory": [
       {
         "name": "Scooby Doo",
@@ -121,7 +148,13 @@
     },
     "manufacturerId": "kings-island",
     "currentAreaId": "rivertown",
-    "areaHistory": "",
+    "areaHistory": [
+      {
+        "areaId": "rivertown",
+        "from": 1979,
+        "to": null
+      }
+    ],
     "nameHistory": [
       {
         "name": "The Beast",
@@ -182,7 +215,18 @@
     },
     "manufacturerId": "arrow-dynamics",
     "currentAreaId": "adventure-port",
-    "areaHistory": "",
+    "areaHistory": [
+      {
+        "areaId": "oktoberfest",
+        "from": 1991,
+        "to": 2022
+      },
+      {
+        "areaId": "adventure-port",
+        "from": 2023,
+        "to": null
+      }
+    ],
     "nameHistory": [
       {
         "name": "Adventure Express",
@@ -220,7 +264,13 @@
     },
     "manufacturerId": "arrow-dynamics",
     "currentAreaId": "action-zone",
-    "areaHistory": "",
+    "areaHistory": [
+      {
+        "areaId": "action-zone",
+        "from": 1993,
+        "to": null
+      }
+    ],
     "nameHistory": [
       {
         "name": "Top Gun",
@@ -272,12 +322,12 @@
     "currentAreaId": "area-72",
     "areaHistory": [
       {
-        "area": "Action Zone",
+        "areaId": "action-zone",
         "from": 1996,
         "to": 2019
       },
       {
-        "area": "Area 72",
+        "areaId": "area-72",
         "from": 2020,
         "to": null
       }
@@ -333,7 +383,13 @@
     },
     "manufacturerId": "vekoma",
     "currentAreaId": "action-zone",
-    "areaHistory": "",
+    "areaHistory": [
+      {
+        "areaId": "action-zone",
+        "from": 1999,
+        "to": null
+      }
+    ],
     "nameHistory": [
       {
         "name": "Face/Off",
@@ -379,7 +435,28 @@
     },
     "manufacturerId": "vekoma",
     "currentAreaId": "camp-snoopy",
-    "areaHistory": "",
+    "areaHistory": [
+      {
+        "areaId": "nickelodeon-central",
+        "from": 2001,
+        "to": 2005
+      },
+      {
+        "areaId": "nickelodeon-universe",
+        "from": 2006,
+        "to": 2009
+      },
+      {
+        "areaId": "planet-snoopy",
+        "from": 2010,
+        "to": 2023
+      },
+      {
+        "areaId": "camp-snoopy",
+        "from": 2024,
+        "to": null
+      }
+    ],
     "nameHistory": [
       {
         "name": "Rugrats Runaway Reptar",
@@ -426,7 +503,13 @@
     },
     "manufacturerId": "premier-rides",
     "currentAreaId": "coney-mall",
-    "areaHistory": "",
+    "areaHistory": [
+      {
+        "areaId": "coney-mall",
+        "from": 2005,
+        "to": null
+      }
+    ],
     "nameHistory": [
       {
         "name": "Italian Job: Stunt Track",
@@ -476,7 +559,13 @@
     },
     "manufacturerId": "bolliger-mabillard",
     "currentAreaId": "rivertown",
-    "areaHistory": "",
+    "areaHistory": [
+      {
+        "areaId": "rivertown",
+        "from": 2009,
+        "to": null
+      }
+    ],
     "nameHistory": [
       {
         "name": "Diamondback",
@@ -519,7 +608,13 @@
     },
     "manufacturerId": "bolliger-mabillard",
     "currentAreaId": "action-zone",
-    "areaHistory": "",
+    "areaHistory": [
+      {
+        "areaId": "action-zone",
+        "from": 2014,
+        "to": null
+      }
+    ],
     "nameHistory": [
       {
         "name": "Banshee",
@@ -566,7 +661,13 @@
     },
     "manufacturerId": "great-coasters-international",
     "currentAreaId": "rivertown",
-    "areaHistory": "",
+    "areaHistory": [
+      {
+        "areaId": "rivertown",
+        "from": 2017,
+        "to": null
+      }
+    ],
     "nameHistory": [
       {
         "name": "Mystic Timbers",
@@ -603,7 +704,13 @@
     },
     "manufacturerId": "bolliger-mabillard",
     "currentAreaId": "area-72",
-    "areaHistory": "",
+    "areaHistory": [
+      {
+        "areaId": "area-72",
+        "from": 2020,
+        "to": null
+      }
+    ],
     "nameHistory": [
       {
         "name": "Orion",
@@ -648,8 +755,29 @@
       ]
     },
     "manufacturerId": "ef-miler-industries",
-    "currentAreaId": "camp-snoopy",
-    "areaHistory": "",
+    "currentAreaId": "planet-snoopy",
+    "areaHistory": [
+      {
+        "areaId": "hanna-barbera-land",
+        "from": 1972,
+        "to": 1999
+      },
+      {
+        "areaId": "nickelodeon-central",
+        "from": 2000,
+        "to": 2005
+      },
+      {
+        "areaId": "nickelodeon-universe",
+        "from": 2006,
+        "to": 2009
+      },
+      {
+        "areaId": "planet-snoopy",
+        "from": 2010,
+        "to": null
+      }
+    ],
     "nameHistory": [
       {
         "name": "Scooby Zoom",
@@ -697,7 +825,13 @@
     },
     "manufacturerId": "vekoma",
     "currentAreaId": "camp-snoopy",
-    "areaHistory": "",
+    "areaHistory": [
+      {
+        "areaId": "camp-snoopy",
+        "from": 2024,
+        "to": null
+      }
+    ],
     "nameHistory": [
       {
         "name": "Snoopy's Soap Box Racers",
@@ -731,8 +865,14 @@
       "tags": []
     },
     "manufacturerId": "arrow-dynamics",
-    "currentAreaId": "coney-mall",
-    "areaHistory": "",
+    "currentAreaId": null,
+    "areaHistory": [
+      {
+        "areaId": "coney-mall",
+        "from": 1987,
+        "to": 2019
+      }
+    ],
     "nameHistory": [
       {
         "name": "Vortex",
@@ -777,8 +917,14 @@
       ]
     },
     "manufacturerId": "roller-coaster-corporation-of-america",
-    "currentAreaId": "action-zone",
-    "areaHistory": "",
+    "currentAreaId": null,
+    "areaHistory": [
+      {
+        "areaId": "action-zone",
+        "from": 2000,
+        "to": 2012
+      }
+    ],
     "nameHistory": [
       {
         "name": "Son of Beast",
@@ -845,8 +991,14 @@
       ]
     },
     "manufacturerId": "vekoma",
-    "currentAreaId": "action-zone",
-    "areaHistory": "",
+    "currentAreaId": null,
+    "areaHistory": [
+      {
+        "areaId": "coney-mall",
+        "from": 2007,
+        "to": 2018
+      }
+    ],
     "nameHistory": [
       {
         "name": "X-Flight",
@@ -897,8 +1049,19 @@
       "tags": []
     },
     "manufacturerId": "togo",
-    "currentAreaId": "coney-mall",
-    "areaHistory": "",
+    "currentAreaId": null,
+    "areaHistory": [
+      {
+        "areaId": "safari",
+        "from": 1984,
+        "to": 1992
+      },
+      {
+        "areaId": "action-zone",
+        "from": 1993,
+        "to": 2001
+      }
+    ],
     "nameHistory": [
       {
         "name": "King Cobra",
@@ -938,8 +1101,14 @@
       "tags": []
     },
     "manufacturerId": "arrow-dynamics",
-    "currentAreaId": "rivertown",
-    "areaHistory": "",
+    "currentAreaId": null,
+    "areaHistory": [
+      {
+        "areaId": "coney-mall",
+        "from": 1981,
+        "to": 1983
+      }
+    ],
     "nameHistory": [
       {
         "name": "The Bat",
@@ -963,7 +1132,7 @@
     "rcdbUrl": "https://rcdb.com/313.htm",
     "currentName": "Demon / Screamin' Demon",
     "slug": "screamin-demon",
-    "status": "relocated",
+    "status": "defunct",
     "opened": 1977,
     "closed": 1987,
     "classification": {
@@ -977,8 +1146,14 @@
       ]
     },
     "manufacturerId": "arrow-dynamics",
-    "currentAreaId": "coney-mall",
-    "areaHistory": "",
+    "currentAreaId": null,
+    "areaHistory": [
+      {
+        "areaId": "coney-mall",
+        "from": 1977,
+        "to": 1987
+      }
+    ],
     "nameHistory": [
       {
         "name": "Screamin' Demon",
@@ -1026,8 +1201,14 @@
       ]
     },
     "manufacturerId": "sdc",
-    "currentAreaId": "oktoberfest",
-    "areaHistory": "",
+    "currentAreaId": null,
+    "areaHistory": [
+      {
+        "areaId": "oktoberfest",
+        "from": 1972,
+        "to": 1979
+      }
+    ],
     "nameHistory": [
       {
         "name": "Bavarian Beetle",
@@ -1061,8 +1242,19 @@
       ]
     },
     "manufacturerId": "caripro",
-    "currentAreaId": "camp-snoopy",
-    "areaHistory": "",
+    "currentAreaId": null,
+    "areaHistory": [
+      {
+        "areaId": "nickelodeon-central",
+        "from": 1999,
+        "to": 2005
+      },
+      {
+        "areaId": "nickelodeon-universe",
+        "from": 2006,
+        "to": 2009
+      }
+    ],
     "nameHistory": [
       {
         "name": "Scooby's Ghoster Coaster",
