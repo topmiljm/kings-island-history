@@ -5,7 +5,7 @@ export default function Layout() {
     <>
       <header className="site-header">
         <Link to="/">
-          <h1>Kings Island History</h1>
+          <h1>Kings Island Coaster History</h1>
         </Link>
 
         <nav>

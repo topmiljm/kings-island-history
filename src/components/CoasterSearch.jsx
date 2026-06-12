@@ -6,6 +6,7 @@ export default function CoasterSearch({
     <input
       className="coaster-search"
       type="text"
+      maxLength={50}
       placeholder="Search coasters..."
       value={search}
       onChange={(e) =>

@@ -1,3 +1,8 @@
+.site-header h1 {
+  margin: 10px auto 20px;
+  line-height: 2.5rem;
+}
+
 .coaster-grid {
   display: grid;
   gap: 16px;
@@ -11,7 +16,7 @@
 }
 
 .coaster-card:hover {
-  transform: scale(1.01);
+  transform: translateY(-2px);
   background-color: rgb(242, 235, 235);
 }
 
@@ -24,15 +29,16 @@
 }
 
 .coaster-search {
-  width: 100%;
+  width: 90%;
   padding: 10px;
-  margin: 16px 0;
+  margin: 0 auto 10px;
 }
 
 .filters {
   display: flex;
   gap: 10px;
   margin-bottom: 20px;
+  margin-left: 10px;
 }
 
 .coaster-stats {
@@ -40,6 +46,7 @@
   flex-wrap: wrap;
   gap: 15px;
   margin-bottom: 20px;
+  margin-left: 10px;
 }
 
 @media (min-width: 768px) {
