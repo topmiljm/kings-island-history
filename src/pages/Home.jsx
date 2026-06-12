@@ -6,6 +6,7 @@ export default function Home() {
       <h1>Kings Island Coaster History</h1>
 
       <div className="menu-grid">
+        <Link to="/coasters">Coasters</Link>
         <Link to="/timeline">Timeline</Link>
         <Link to="/decades">Decades</Link>
         <Link to="/records">Records</Link>
