@@ -36,7 +36,7 @@
     "category": "world",
     "yearAwarded": 1977,
     "yearLost": null,
-    "stillHeld": true,
+    "stillHeld": false,
     "notes": "Screamin' Demon opened April 16, 1977, as the first Arrow Launched Loop to operate publicly, and the first looping coaster at Kings Island. (Schwarzkopf/Intamin's shuttle loop debuted separately at Kings Dominion the same year.)"
   },
   {
@@ -46,7 +46,7 @@
     "category": "world",
     "yearAwarded": 1981,
     "yearLost": null,
-    "stillHeld": true,
+    "stillHeld": false,
     "notes": "The Bat opened April 26, 1981, as the first modern suspended coaster — cars hang below the track and swing freely. Arrow billed it as 'the first of its kind.' Earlier obscure attempts (e.g. Alpen-Flug, 1975) predated it but were not comparable in scale or design."
   },
   {
@@ -56,7 +56,7 @@
     "category": "world",
     "yearAwarded": 1984,
     "yearLost": null,
-    "stillHeld": true,
+    "stillHeld": false,
     "notes": "King Cobra opened in 1984 as the world's first modern stand-up roller coaster with a vertical loop. Built by TOGO."
   },
   {

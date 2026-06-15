@@ -1,11 +1,135 @@
+/* ===== GLOBAL ===== */
+
+:root {
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+  color: #333;
+  background: #fff;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* ===== TYPOGRAPHY ===== */
+
+h1,
+h2 {
+  color: #111;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 3rem;
+  margin: 20px 0;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 8px;
+}
+
+p {
+  margin: 0;
+}
+
+/* ===== HEADER ===== */
+
+.site-header {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ddd;
+}
+
 .site-header h1 {
   margin: 10px auto 20px;
   line-height: 2.5rem;
 }
 
+.site-header nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.site-header a {
+  text-decoration: none;
+  color: black;
+}
+
+.site-header a:hover {
+  color: lightslategray;
+}
+
+/* ===== HOME ===== */
+
+.home {
+  margin-top: 10px;
+}
+
+.menu-grid {
+  display: grid;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.menu-grid a {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  text-decoration: none;
+  color: black;
+  background: white;
+}
+
+.menu-grid a:hover {
+  background: rgb(242, 235, 235);
+}
+
+/* ===== COASTER PAGE ===== */
+
+.coaster-search {
+  width: 90%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 0 auto 15px;
+  display: block;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.coaster-stats {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
 .coaster-grid {
   display: grid;
   gap: 16px;
+  padding: 10px;
 }
 
 .coaster-card {
@@ -13,6 +137,7 @@
   border-radius: 10px;
   padding: 16px;
   background: white;
+  transition: 0.2s ease;
 }
 
 .coaster-card:hover {
@@ -28,30 +153,28 @@
   margin: 4px 0;
 }
 
-.coaster-search {
-  width: 90%;
-  padding: 10px;
-  margin: 0 auto 10px;
+.details-link {
+  display: inline-block;
+  margin-top: 10px;
 }
 
-.filters {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-}
-
-.coaster-stats {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-}
+/* ===== RESPONSIVE ===== */
 
 @media (min-width: 768px) {
   .coaster-grid {
-    grid-template-columns: repeat(auto-fill,
-        minmax(280px, 1fr));
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(280px, 1fr)
+    );
+  }
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.25rem;
   }
 }
