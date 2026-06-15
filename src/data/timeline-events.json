@@ -1,16 +1,95 @@
 [
   {
-    "id": "event-001",
+    "id": "park-opening",
     "year": 1972,
-    "type": "opening",
-    "coasterId": "racer",
-    "description": "Racer opens with Kings Island."
+    "type": "park",
+    "title": "Kings Island Opens",
+    "description": "Kings Island officially opens to the public."
   },
   {
-    "id": "event-002",
-    "year": 1979,
-    "type": "opening",
-    "coasterId": "the-beast",
-    "description": "The Beast opens."
+    "id": "coney-island-closure",
+    "year": 1971,
+    "type": "park",
+    "title": "Coney Island Closes",
+    "description": "Cincinnati's Coney Island amusement park closes operations before Kings Island opens."
+  },
+  {
+    "id": "safari-opens",
+    "year": 1974,
+    "type": "area",
+    "areaId": "safari",
+    "title": "Lion Country Safari Opens"
+  },
+  {
+    "id": "winterfest-debut",
+    "year": 1982,
+    "type": "event",
+    "title": "WinterFest Debuts",
+    "description": "Kings Island launches its first WinterFest holiday event."
+  },
+  {
+    "id": "winterfest-ends",
+    "year": 1992,
+    "type": "event",
+    "title": "Original WinterFest Ends"
+  },
+  {
+    "id": "action-zone-created",
+    "year": 1993,
+    "type": "area",
+    "areaId": "action-zone",
+    "title": "Action Zone Debuts",
+    "description": "Adventure Village is rethemed into Action Zone."
+  },
+  {
+    "id": "nickelodeon-central-created",
+    "year": 2000,
+    "type": "area",
+    "areaId": "nickelodeon-central",
+    "title": "Nickelodeon Central Opens"
+  },
+  {
+    "id": "nickelodeon-universe-created",
+    "year": 2006,
+    "type": "area",
+    "areaId": "nickelodeon-universe",
+    "title": "Nickelodeon Universe Opens"
+  },
+  {
+    "id": "planet-snoopy-created",
+    "year": 2010,
+    "type": "area",
+    "areaId": "planet-snoopy",
+    "title": "Planet Snoopy Opens"
+  },
+  {
+    "id": "winterfest-return",
+    "year": 2017,
+    "type": "event",
+    "title": "WinterFest Returns",
+    "description": "WinterFest returns after a 25-year absence."
+  },
+  {
+    "id": "area-72-created",
+    "year": 2020,
+    "type": "area",
+    "areaId": "area-72",
+    "title": "Area 72 Debuts",
+    "description": "Area 72 opens alongside Orion."
+  },
+  {
+    "id": "adventure-port-created",
+    "year": 2023,
+    "type": "area",
+    "areaId": "adventure-port",
+    "title": "Adventure Port Opens",
+    "description": "Adventure Port replaces Oktoberfest."
+  },
+  {
+    "id": "camp-snoopy-created",
+    "year": 2024,
+    "type": "area",
+    "areaId": "camp-snoopy",
+    "title": "Camp Snoopy Opens"
   }
 ]
