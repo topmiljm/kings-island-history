@@ -55,7 +55,7 @@ export default function Timeline() {
     );
 
     return (
-        <div>
+        <div className="timeline-page">
             <h1>Timeline</h1>
 
             <div className="timeline-legend">

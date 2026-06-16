@@ -377,7 +377,7 @@ p {
   margin-bottom: 1.5rem;
   font-size: 13px;
   color: #666;
-  width: 70%;
+  width: 60%;
   margin: 0 auto 30px;
 }
 
@@ -396,24 +396,25 @@ p {
 }
 
 .timeline-list {
+  position: relative;
   border-left: 1px solid #ddd;
   padding-left: 24px;
+  margin-left: 6px;
   text-align: left;
   max-width: 600px;
+  margin-right: auto;
   margin: 0 auto;
 }
 
 .timeline-row {
   position: relative;
-  display: flex;
-  gap: 10px;
   padding-bottom: 20px;
 }
 
 .timeline-row .timeline-dot {
-  position: relative;
+  position: absolute;
   left: -29px;
-  margin-right: -10px;
+  top: 4px;
 }
 
 .timeline-event {
@@ -627,5 +628,19 @@ p {
 
   h2 {
     font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .timeline-page {
+    padding: 0 1.5rem 0 2rem;
+  }
+
+  .timeline-list {
+    padding-left: 20px;
+  }
+
+  .timeline-row .timeline-dot {
+    left: -25px;
   }
 }
