@@ -9,12 +9,12 @@ export default function Records() {
         coasters.find(c => c.id === id)?.currentName ?? id;
 
     return (
-        <div>
+        <div className="records-page">
             <h1>Records</h1>
 
             <section>
                 <h2>Current Records</h2>
-                <ul>
+                <ul className="records-page-list">
                     {stillHeld.map(r => (
                         <li key={r.id}>
                             <strong>{coasterName(r.coasterId)}</strong> — {r.title} ({r.yearAwarded})
@@ -26,7 +26,7 @@ export default function Records() {
 
             <section>
                 <h2>Historical Records</h2>
-                <ul>
+                <ul className="records-page-list">
                     {historical.map(r => (
                         <li key={r.id}>
                             <strong>{coasterName(r.coasterId)}</strong> — {r.title} ({r.yearAwarded}–{r.yearLost})

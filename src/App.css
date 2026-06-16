@@ -58,6 +58,10 @@ p {
   line-height: 2.5rem;
 }
 
+.site-header h1:hover {
+  color: lightslategray;
+}
+
 .site-header nav {
   display: flex;
   justify-content: center;
@@ -78,6 +82,11 @@ p {
 
 .home {
   margin-top: 10px;
+}
+
+.home p {
+  width: 90%;
+  margin: 0 auto;
 }
 
 .menu-grid {
@@ -158,14 +167,19 @@ p {
   margin-top: 10px;
 }
 
+/* ===== RECORDS PAGE ===== */
+
+.records-page-list {
+  /* margin: 0 auto; */
+  padding: 10px;
+}
+
 /* ===== RESPONSIVE ===== */
 
 @media (min-width: 768px) {
   .coaster-grid {
-    grid-template-columns: repeat(
-      auto-fill,
-      minmax(280px, 1fr)
-    );
+    grid-template-columns: repeat(auto-fill,
+        minmax(280px, 1fr));
   }
 }
 
