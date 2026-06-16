@@ -19,7 +19,7 @@ export default function CoasterCard({ coaster, area, manufacturer }) {
 
       <Link
         className="details-link"
-        to={`/coaster/${coaster.slug}`}
+        to={`/coasters/${coaster.slug}`}
       >
         View Details
       </Link>

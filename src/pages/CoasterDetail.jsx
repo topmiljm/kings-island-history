@@ -22,7 +22,6 @@ export default function CoasterDetail() {
 
     const coasterRecords = records.filter(r => r.coasterId === coaster.id);
 
-
     const manufacturer = manufacturers.find(
         m => m.id === coaster.manufacturerId
     );
@@ -30,30 +29,23 @@ export default function CoasterDetail() {
     const { classification, specs, areaHistory, nameHistory, timeline } = coaster;
 
     return (
-        <article>
-            <header>
+        <article className="coaster-detail">
+            <header className="coaster-detail-header">
                 <h1>{coaster.currentName}</h1>
-                <p>
+                <p className="coaster-detail-status">
                     {coaster.status === "operating"
                         ? `Operating since ${coaster.opened}`
                         : `${coaster.opened}–${coaster.closed} (${formatLabel(coaster.status)})`}
                 </p>
                 {classification && (
-                    <div>
+                    <div className="coaster-detail-classification">
                         <span>{formatLabel(classification.material)}</span>
-                        {" · "}
                         <span>{formatLabel(classification.design)}</span>
                         {classification.model && (
-                            <>
-                                {" · "}
-                                <span>{classification.model}</span>
-                            </>
+                            <span>{classification.model}</span>
                         )}
                         {classification.tags?.length > 0 && (
-                            <>
-                                {" · "}
-                                {classification.tags.map(formatLabel).join(", ")}
-                            </>
+                            <span>{classification.tags.map(formatLabel).join(", ")}</span>
                         )}
                     </div>
                 )}
@@ -63,7 +55,9 @@ export default function CoasterDetail() {
             {manufacturer && (
                 <section>
                     <h2>Manufacturer</h2>
-                    <p>{manufacturer.name} ({manufacturer.country})</p>
+                    <p className="coaster-detail-manufacturer">
+                        {manufacturer.name} ({manufacturer.country})
+                    </p>
                 </section>
             )}
 
@@ -89,7 +83,7 @@ export default function CoasterDetail() {
                         <div>
                             <h3>Tracks</h3>
                             {specs.tracks.map(track => (
-                                <div key={track.name}>
+                                <div key={track.name} className="coaster-detail-track">
                                     <strong>{track.name}</strong>: {track.lengthFt} ft,{" "}
                                     {track.heightFt} ft tall, {track.speedMph} mph,{" "}
                                     {track.durationMin}
@@ -115,16 +109,20 @@ export default function CoasterDetail() {
             {areaHistory?.length > 0 && (
                 <section>
                     <h2>Area History</h2>
-                    <ul>
+                    <div>
                         {areaHistory.map((entry, i) => (
-                            <li key={i}>
+                            <div key={i} className="coaster-detail-history-entry">
                                 {formatLabel(entry.areaId)}
                                 {" "}
-                                ({entry.from}–{entry.to ?? "present"})
-                                {entry.note && <> — {entry.note}</>}
-                            </li>
+                                <span className="coaster-detail-history-years">
+                                    ({entry.from}–{entry.to ?? "present"})
+                                </span>
+                                {entry.note && (
+                                    <div className="coaster-detail-history-note">{entry.note}</div>
+                                )}
+                            </div>
                         ))}
-                    </ul>
+                    </div>
                 </section>
             )}
 
@@ -132,14 +130,19 @@ export default function CoasterDetail() {
             {nameHistory?.length > 1 && (
                 <section>
                     <h2>Name History</h2>
-                    <ul>
+                    <div>
                         {nameHistory.map((entry, i) => (
-                            <li key={i}>
-                                "{entry.name}" ({entry.from}–{entry.to ?? "present"})
-                                {entry.reason && <> — {entry.reason}</>}
-                            </li>
+                            <div key={i} className="coaster-detail-history-entry">
+                                "{entry.name}"{" "}
+                                <span className="coaster-detail-history-years">
+                                    ({entry.from}–{entry.to ?? "present"})
+                                </span>
+                                {entry.reason && (
+                                    <div className="coaster-detail-history-note">{entry.reason}</div>
+                                )}
+                            </div>
                         ))}
-                    </ul>
+                    </div>
                 </section>
             )}
 
@@ -147,18 +150,17 @@ export default function CoasterDetail() {
             {coasterRecords.length > 0 && (
                 <section>
                     <h2>Records</h2>
-
-                    <ul>
+                    <div>
                         {coasterRecords.map(record => (
-                            <li key={record.id}>
-                                {record.title}
-                                {" "}
-                                ({formatLabel(record.category)})
-                                {" "}
-                                {record.yearAwarded}-{record.yearLost}
-                            </li>
+                            <div key={record.id} className="coaster-detail-record">
+                                <div className="coaster-detail-record-title">{record.title}</div>
+                                <div className="coaster-detail-record-meta">
+                                    {formatLabel(record.category)} · {record.yearAwarded}
+                                    {record.yearLost ? `–${record.yearLost}` : " – present"}
+                                </div>
+                            </div>
                         ))}
-                    </ul>
+                    </div>
                 </section>
             )}
 
@@ -166,27 +168,31 @@ export default function CoasterDetail() {
             {timeline?.length > 0 && (
                 <section>
                     <h2>Timeline</h2>
-                    <ul>
+                    <div>
                         {timeline.map((event, i) => (
-                            <li key={i}>
-                                <strong>{event.year}</strong> — {event.title || formatLabel(event.type)}
-                                {event.description && <p>{event.description}</p>}
-                            </li>
+                            <div key={i} className="coaster-detail-timeline-entry">
+                                <span className="coaster-detail-timeline-year">{event.year}</span>
+                                {" — "}
+                                {event.title || formatLabel(event.type)}
+                                {event.description && (
+                                    <p className="coaster-detail-timeline-desc">{event.description}</p>
+                                )}
+                            </div>
                         ))}
-                    </ul>
+                    </div>
                 </section>
             )}
 
             {/* Notes */}
             {coaster.notes && (
-                <section>
+                <section className="coaster-detail-notes">
                     <h2>Notes</h2>
                     <p>{coaster.notes}</p>
                 </section>
             )}
 
             {coaster.rcdbUrl && (
-                <p>
+                <p className="coaster-detail-rcdb">
                     <a href={coaster.rcdbUrl} target="_blank" rel="noreferrer">
                         View on RCDB
                     </a>

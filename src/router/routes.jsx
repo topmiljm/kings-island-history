@@ -23,7 +23,7 @@ export const router = createBrowserRouter([
         element: <Coasters />
       },
       {
-        path: "coaster/:slug",
+        path: "coasters/:slug",
         element: <CoasterDetail />
       },
       {

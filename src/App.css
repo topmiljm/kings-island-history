@@ -179,6 +179,189 @@ p {
   margin-top: 10px;
 }
 
+/* ===== COASTER DETAIL PAGE ===== */
+
+.coaster-detail {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 1.5rem 60px;
+  text-align: left;
+}
+
+.coaster-detail-header {
+  text-align: center;
+  padding-bottom: 28px;
+  margin-bottom: 28px;
+  border-bottom: 1px solid #eee;
+}
+
+.coaster-detail-header h1 {
+  margin-bottom: 6px;
+  font-size: 25px;
+}
+
+.coaster-detail-status {
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.coaster-detail-classification {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-size: 13px;
+  color: #378ADD;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.coaster-detail-classification .dot {
+  color: #ccc;
+}
+
+.coaster-detail section {
+  padding: 28px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.coaster-detail section:last-of-type {
+  border-bottom: none;
+}
+
+.coaster-detail h2 {
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #888;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.coaster-detail h3 {
+  font-size: 0.9rem;
+  color: #444;
+  font-weight: 600;
+  margin: 16px 0 8px;
+}
+
+.coaster-detail ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.coaster-detail ul li {
+  padding: 7px 0;
+  border-bottom: 1px solid #f3f3f3;
+  color: #333;
+}
+
+.coaster-detail ul li:last-child {
+  border-bottom: none;
+}
+
+.coaster-detail-manufacturer {
+  font-size: 1rem;
+  color: #333;
+}
+
+.coaster-detail-track {
+  padding: 7px 0;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.coaster-detail-track:last-child {
+  border-bottom: none;
+}
+
+.coaster-detail-track strong {
+  color: #378ADD;
+}
+
+.coaster-detail-history-entry {
+  padding: 7px 0;
+  border-bottom: 1px solid #f3f3f3;
+  color: #333;
+}
+
+.coaster-detail-history-entry:last-child {
+  border-bottom: none;
+}
+
+.coaster-detail-history-years {
+  color: #888;
+  font-size: 13px;
+}
+
+.coaster-detail-history-note {
+  color: #888;
+}
+
+.coaster-detail-record {
+  padding: 10px 0;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.coaster-detail-record:last-child {
+  border-bottom: none;
+}
+
+.coaster-detail-record-title {
+  color: #333;
+  font-weight: 500;
+}
+
+.coaster-detail-record-meta {
+  font-size: 13px;
+  color: #888;
+  margin-top: 2px;
+}
+
+.coaster-detail-timeline-entry {
+  padding: 10px 0;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.coaster-detail-timeline-entry:last-child {
+  border-bottom: none;
+}
+
+.coaster-detail-timeline-year {
+  color: #378ADD;
+  font-weight: 600;
+}
+
+.coaster-detail-timeline-desc {
+  font-size: 13px;
+  color: #666;
+  margin: 4px 0 0;
+}
+
+.coaster-detail-notes p {
+  color: #444;
+  line-height: 1.6;
+}
+
+.coaster-detail-rcdb {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.coaster-detail-rcdb a {
+  color: #378ADD;
+  text-decoration: none;
+  font-size: 14px;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
+}
+
+.coaster-detail-rcdb a:hover {
+  border-bottom-color: #378ADD;
+}
+
+
 /* ===== TIMELINE PAGE ===== */
 
 .timeline-page {
@@ -188,47 +371,47 @@ p {
 }
 
 .timeline-legend {
-    display: flex;
-    gap: 16px;
-    flex-wrap: wrap;
-    margin-bottom: 1.5rem;
-    font-size: 13px;
-    color: #666;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+  font-size: 13px;
+  color: #666;
 }
 
 .timeline-legend-item {
-    display: flex;
-    align-items: center;
-    gap: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .timeline-dot {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    display: inline-block;
-    flex-shrink: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  display: inline-block;
+  flex-shrink: 0;
 }
 
 .timeline-list {
-    border-left: 1px solid #ddd;
-    padding-left: 24px;
-    text-align: left;
-    max-width: 600px;
-    margin: 0 auto;
+  border-left: 1px solid #ddd;
+  padding-left: 24px;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .timeline-row {
-    position: relative;
-    display: flex;
-    gap: 10px;
-    padding-bottom: 20px;
+  position: relative;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 20px;
 }
 
 .timeline-row .timeline-dot {
-    position: relative;
-    left: -29px;
-    margin-right: -10px;
+  position: relative;
+  left: -29px;
+  margin-right: -10px;
 }
 
 .timeline-event {
@@ -237,9 +420,185 @@ p {
 }
 
 .timeline-description {
-    font-size: 13px;
-    color: #666;
-    margin: 4px 0 0;
+  font-size: 13px;
+  color: #666;
+  margin: 4px 0 0;
+}
+
+/* ===== DECADES PAGE ===== */
+
+.decades-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.decades-subtitle {
+  color: #666;
+  margin-bottom: 26px;
+}
+
+.decades-chart-wrapper {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 8px;
+  padding: 0 10px;
+  max-width: 100%;
+  overflow-x: auto;
+  padding-top: 20px;
+}
+
+.decades-y-axis {
+  position: relative;
+  flex-shrink: 0;
+  width: 20px;
+  height: 120px;
+  margin-bottom: 20px;
+  /* 41px = bar-track height offset (21px) + bar-label row, keeps 0-tick level with the bar baseline */
+}
+
+.decades-y-tick {
+  position: absolute;
+  left: 0;
+  right: 0;
+  font-size: 12px;
+  color: #888;
+  line-height: 1;
+  transform: translateY(50%);
+  text-align: right;
+}
+
+.decades-chart {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 16px;
+  height: 160px;
+  flex: 1;
+  min-width: 0;
+}
+
+.decades-gridline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top: 1px dashed #e5e5e5;
+  z-index: 0;
+}
+
+.decades-bar-column {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  height: 100%;
+  justify-content: flex-end;
+  flex-shrink: 1;
+  min-width: 0;
+  top: -17px;
+}
+
+.decades-bar-count {
+  position: absolute;
+  top: -18px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+  font-weight: 600;
+  color: #333;
+}
+
+.decades-chart-caption {
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+  margin-bottom: 30px;
+}
+
+
+.decades-bar-track {
+  display: flex;
+  align-items: flex-end;
+  height: 120px;
+  width: 36px;
+}
+
+.decades-bar {
+  position: relative;
+  width: 100%;
+  min-height: 4px;
+  background: #378ADD;
+  border-radius: 4px 4px 0 0;
+  transition: 0.2s ease;
+}
+
+.decades-bar-label {
+  font-size: 12px;
+  color: #666;
+  white-space: nowrap;
+}
+
+@media (max-width: 480px) {
+  .decades-chart {
+    gap: 8px;
+  }
+
+  .decades-bar-track {
+    width: 24px;
+  }
+
+  .decades-bar-label {
+    font-size: 11px;
+  }
+
+  .decades-y-axis {
+    width: 16px;
+  }
+
+  .decades-y-tick {
+    font-size: 11px;
+  }
+}
+
+
+.decades-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  text-align: left;
+}
+
+.decade-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 16px 20px;
+  background: white;
+}
+
+.decade-coaster-list {
+  margin: 8px 0 12px;
+  padding-left: 20px;
+}
+
+.decade-coaster-list li {
+  margin-bottom: 4px;
+}
+
+.decade-empty {
+  color: #888;
+  list-style: none;
+  padding-left: 0;
+}
+
+.decade-highlight {
+  color: #555;
+  font-size: 14px;
+  border-left: 3px solid #378ADD;
+  padding-left: 12px;
+  margin: 0;
 }
 
 

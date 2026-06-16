@@ -1,0 +1,44 @@
+[
+  {
+    "id": "1970s",
+    "label": "1970s",
+    "startYear": 1970,
+    "endYear": 1979,
+    "highlight": "Kings Island opened in 1972 with Racer and Woodstock Express, then closed out the decade with The Beast in 1979 — still the world's longest wooden coaster today."
+  },
+  {
+    "id": "1980s",
+    "label": "1980s",
+    "startYear": 1980,
+    "endYear": 1989,
+    "highlight": "The 1980s brought King Cobra, the world's first modern stand-up coaster, alongside Vortex, which briefly held world records for height and inversions."
+  },
+  {
+    "id": "1990s",
+    "label": "1990s",
+    "startYear": 1990,
+    "endYear": 1999,
+    "highlight": "A decade of variety: the mine-train thrills of Adventure Express, the suspended swing of Top Gun (now The Bat), the indoor launch of Flight of Fear, and the shuttle loops of Invertigo."
+  },
+  {
+    "id": "2000s",
+    "label": "2000s",
+    "startYear": 2000,
+    "endYear": 2009,
+    "highlight": "Son of Beast opened in 2000 as the tallest, fastest wooden coaster in the world and the only one with a loop. The decade closed with the smooth, towering Diamondback in 2009."
+  },
+  {
+    "id": "2010s",
+    "label": "2010s",
+    "startYear": 2010,
+    "endYear": 2019,
+    "highlight": "Banshee (2014) became the world's longest inverted coaster, and Mystic Timbers (2017) added a fan-favorite wooden coaster with its mysterious shed finale."
+  },
+  {
+    "id": "2020s",
+    "label": "2020s",
+    "startYear": 2020,
+    "endYear": 2029,
+    "highlight": "Orion opened in 2020 as the park's first giga coaster, followed by the family-friendly Snoopy's Soap Box Racers in 2024."
+  }
+]
