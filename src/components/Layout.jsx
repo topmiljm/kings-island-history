@@ -1,4 +1,4 @@
-import { Link, Outlet } from "react-router-dom";
+import { NavLink, Link, Outlet } from "react-router-dom";
 
 export default function Layout() {
   return (
@@ -9,10 +9,11 @@ export default function Layout() {
         </Link>
 
         <nav>
-          <Link to="/coasters">Coasters</Link>
-          <Link to="/timeline">Timeline</Link>
-          <Link to="/decades">Decades</Link>
-          <Link to="/records">Records</Link>
+          <NavLink to="/coasters" className={({ isActive }) => isActive ? "active" : ""}>
+            Coasters</NavLink>
+          <NavLink to="/timeline">Timeline</NavLink>
+          <NavLink to="/decades">Decades</NavLink>
+          <NavLink to="/records">Records</NavLink>
         </nav>
       </header>
 

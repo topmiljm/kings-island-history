@@ -62,6 +62,10 @@ p {
   color: lightslategray;
 }
 
+.site-header h1:active {
+  color: lightblue;
+}
+
 .site-header nav {
   display: flex;
   justify-content: center;
@@ -76,6 +80,14 @@ p {
 
 .site-header a:hover {
   color: lightslategray;
+}
+
+.site-header a:active {
+  color: lightblue;
+}
+
+.site-header a.active {
+  color: blue;
 }
 
 /* ===== HOME ===== */
@@ -166,6 +178,70 @@ p {
   display: inline-block;
   margin-top: 10px;
 }
+
+/* ===== TIMELINE PAGE ===== */
+
+.timeline-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.timeline-legend {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 1.5rem;
+    font-size: 13px;
+    color: #666;
+}
+
+.timeline-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.timeline-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.timeline-list {
+    border-left: 1px solid #ddd;
+    padding-left: 24px;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.timeline-row {
+    position: relative;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+.timeline-row .timeline-dot {
+    position: relative;
+    left: -29px;
+    margin-right: -10px;
+}
+
+.timeline-event {
+  margin: 1px;
+  align-items: left;
+}
+
+.timeline-description {
+    font-size: 13px;
+    color: #666;
+    margin: 4px 0 0;
+}
+
 
 /* ===== RECORDS PAGE ===== */
 
