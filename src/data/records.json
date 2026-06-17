@@ -97,7 +97,7 @@
     "yearAwarded": 2000,
     "yearLost": 2011,
     "stillHeld": false,
-    "notes": "Son of Beast stood 218 ft at opening. Lost to Intimidator 305's wooden equivalent; specifically surpassed by Goliath-era coasters by the early 2010s."
+    "notes": "Son of Beast stood 218 ft at opening. The current world's tallest wooden coaster is 183.8 ft."
   },
   {
     "id": "record-011",
@@ -107,7 +107,7 @@
     "yearAwarded": 2000,
     "yearLost": 2011,
     "stillHeld": false,
-    "notes": "Son of Beast reached 78.4 mph at opening. Record subsequently broken by faster wooden coasters in the 2010s."
+    "notes": "Son of Beast reached 78.4 mph at opening. Goliath at Six Flags Great America is currently the world's fastest wooden coaster (72 mph)."
   },
   {
     "id": "record-012",
@@ -148,5 +148,25 @@
     "yearLost": null,
     "stillHeld": true,
     "notes": "At 287 ft tall, 91 mph, and 5,321 ft of track, Orion holds all three superlative records within the park for steel coasters."
+  },
+  {
+    "id": "record-016",
+    "coasterId": "son-of-beast",
+    "title": "World's Only Wooden Hypercoaster (200+ height)",
+    "category": "world",
+    "yearAwarded": 2000,
+    "yearLost": 2011,
+    "stillHeld": false,
+    "notes": "Son of Beast was the only wooden hypercoaster in the world. There has never been another wooden hypercoaster in existence."
+  },
+  {
+    "id": "record-017",
+    "coasterId": "son-of-beast",
+    "title": "World's Longest Looping Coaster",
+    "category": "world",
+    "yearAwarded": 2000,
+    "yearLost": 2006,
+    "stillHeld": false,
+    "notes": "At opening, Son of Beast was the longest roller coaster in the world to feature a loop."
   }
 ]
