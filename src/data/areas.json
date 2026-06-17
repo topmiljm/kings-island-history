@@ -62,7 +62,7 @@
     "closed": null,
     "status": "active",
     "description": "Thrill ride area created from the former Safari and other themed sections.",
-    "predecessorAreaId": null,
+    "predecessorAreaId": "adventure-village",
     "successorAreaId": null
   },
   {
@@ -136,10 +136,32 @@
     "slug": "safari",
     "name": "Safari",
     "opened": 1974,
-    "closed": 1992,
+    "closed": 1984,
     "status": "retired",
     "description": "Animal safari attraction area that later influenced the development of Action Zone.",
     "predecessorAreaId": null,
+    "successorAreaId": "wild-animal-habitat"
+  },
+  {
+    "id": "wild-animal-habitat",
+    "slug": "wild-animal-habitat",
+    "name": "Wild Animal Habitat",
+    "opened": 1984,
+    "closed": 1992,
+    "status": "retired",
+    "description": "",
+    "predecessorAreaId": "safari",
+    "successorAreaId": "adventure-village"
+  },
+  {
+    "id": "adventure-village",
+    "slug": "adventure-village",
+    "name": "Adventure Village",
+    "opened": 1992,
+    "closed": 1998,
+    "status": "retired",
+    "description": "",
+    "predecessorAreaId": "wild-animal-habitat",
     "successorAreaId": "action-zone"
   }
 ]
