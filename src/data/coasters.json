@@ -1189,8 +1189,8 @@
     "currentName": "Bavarian Beetle",
     "slug": "bavarian-beetle",
     "status": "defunct",
-    "opened": 1976,
-    "closed": 1991,
+    "opened": 1972,
+    "closed": 1978,
     "classification": {
       "material": "steel",
       "design": "sit-down",
@@ -1206,14 +1206,14 @@
       {
         "areaId": "oktoberfest",
         "from": 1972,
-        "to": 1979
+        "to": 1978
       }
     ],
     "nameHistory": [
       {
         "name": "Bavarian Beetle",
-        "from": 1976,
-        "to": 1991
+        "from": 1972,
+        "to": 1978
       }
     ],
     "specs": {
