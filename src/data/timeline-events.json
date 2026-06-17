@@ -18,7 +18,7 @@
     "year": 1974,
     "type": "area",
     "areaId": "safari",
-    "title": "Lion Country Safari Opens"
+    "title": "Lion Country Safari Area Opens."
   },
   {
     "id": "winterfest-debut",
@@ -26,6 +26,13 @@
     "type": "event",
     "title": "WinterFest Debuts",
     "description": "Kings Island launches its first WinterFest holiday event."
+  },
+  {
+    "id": "waterworks-opens",
+    "year": 1989,
+    "type": "area",
+    "areaId": "soak-city",
+    "title": "WaterWorks water park area opens."
   },
   {
     "id": "winterfest-ends",
@@ -39,28 +46,39 @@
     "type": "area",
     "areaId": "action-zone",
     "title": "Action Zone Debuts",
-    "description": "Adventure Village is rethemed into Action Zone."
+    "description": "Adventure Village(formerly Safari area) is rethemed into Action Zone."
   },
   {
     "id": "nickelodeon-central-created",
     "year": 2000,
     "type": "area",
     "areaId": "nickelodeon-central",
-    "title": "Nickelodeon Central Opens"
+    "title": "Nickelodeon Central Opens",
+    "description": "Kings Island's iteration of a kids-focused area; adjacent to Hanna-Barbera Land(1972)."
   },
   {
     "id": "nickelodeon-universe-created",
     "year": 2006,
     "type": "area",
     "areaId": "nickelodeon-universe",
-    "title": "Nickelodeon Universe Opens"
+    "title": "Nickelodeon Universe Opens",
+    "description": "Nickelodeon kids area refurbished."
   },
   {
     "id": "planet-snoopy-created",
     "year": 2010,
     "type": "area",
     "areaId": "planet-snoopy",
-    "title": "Planet Snoopy Opens"
+    "title": "Planet Snoopy Opens",
+    "description": "Planet Snoopy replaces Nickelodeon Universe."
+  },
+  {
+    "id": "soak-city-created",
+    "year": 2012,
+    "type": "area",
+    "areaId": "soak-city",
+    "title": "Soak City Debuts",
+    "description": "Kings Islands's water park is expanded and renamed to Soak City."
   },
   {
     "id": "winterfest-return",
@@ -83,13 +101,14 @@
     "type": "area",
     "areaId": "adventure-port",
     "title": "Adventure Port Opens",
-    "description": "Adventure Port replaces Oktoberfest."
+    "description": "Adventure Port replaces Oktoberfest area(1972)."
   },
   {
     "id": "camp-snoopy-created",
     "year": 2024,
     "type": "area",
     "areaId": "camp-snoopy",
-    "title": "Camp Snoopy Opens"
+    "title": "Camp Snoopy Opens",
+    "description": "Camp Snoopy is the expansion/sub-area of Planet Snoopy."
   }
 ]

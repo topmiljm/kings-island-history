@@ -101,6 +101,23 @@ p {
   margin: 0 auto;
 }
 
+.home-area-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.home-area-list li {
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.home-area-list-retired {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .menu-grid {
   display: grid;
   gap: 15px;

@@ -13,6 +13,7 @@ export default function Coasters() {
   const [search, setSearch] = useState("");
   const [status, setStatus] = useState("all");
   const [material, setMaterial] = useState("all");
+  const [area, setArea] = useState("all");
 
   const filtered = coasters.filter((coaster) => {
     const matchesSearch =
@@ -28,10 +29,15 @@ export default function Coasters() {
       material === "all" ||
       coaster.classification.material === material;
 
+    const matchesArea = 
+      area === "all" || 
+      coaster.currentAreaId === area;
+
     return (
       matchesSearch &&
       matchesStatus &&
-      matchesMaterial
+      matchesMaterial &&
+      matchesArea
     );
   });
 
@@ -51,6 +57,7 @@ export default function Coasters() {
         setStatus={setStatus}
         material={material}
         setMaterial={setMaterial}
+        setArea={setArea}
       />
 
       <CoasterGrid

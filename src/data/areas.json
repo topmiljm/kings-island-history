@@ -6,7 +6,7 @@
     "opened": 1972,
     "closed": null,
     "status": "active",
-    "description": "The main entrance area and central hub of Kings Island.",
+    "description": "The main entrance area and central hub of Kings Island. There are no roller coasters in this area.",
     "predecessorAreaId": null,
     "successorAreaId": null
   },
@@ -37,20 +37,20 @@
     "slug": "planet-snoopy",
     "name": "Planet Snoopy",
     "opened": 2010,
-    "closed": 2024,
-    "status": "retired",
-    "description": "Family and children's area themed to the Peanuts characters.",
+    "closed": null,
+    "status": "active",
+    "description": "Family and children's area themed to the Peanuts characters; contains 'Camp Snoopy' sub-area.",
     "predecessorAreaId": "nickelodeon-universe",
-    "successorAreaId": "camp-snoopy"
+    "successorAreaId": null
   },
-  {
+  { 
     "id": "camp-snoopy",
     "slug": "camp-snoopy",
     "name": "Camp Snoopy",
     "opened": 2024,
     "closed": null,
     "status": "active",
-    "description": "Expansion of the children's area with outdoor adventure theming.",
+    "description": "Expansion/sub-area of the Planet Snoopy children's area with outdoor adventure theming.",
     "predecessorAreaId": "planet-snoopy",
     "successorAreaId": null
   },
