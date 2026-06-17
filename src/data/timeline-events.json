@@ -18,7 +18,7 @@
     "year": 1974,
     "type": "area",
     "areaId": "safari",
-    "title": "Lion Country Safari Area Opens."
+    "title": "Safari Area Opens"
   },
   {
     "id": "winterfest-debut",
@@ -32,7 +32,7 @@
     "year": 1989,
     "type": "area",
     "areaId": "soak-city",
-    "title": "WaterWorks water park area opens."
+    "title": "WaterWorks water park area opens"
   },
   {
     "id": "winterfest-ends",
@@ -49,12 +49,12 @@
     "description": "Adventure Village(formerly Safari area) is rethemed into Action Zone."
   },
   {
-    "id": "nickelodeon-central-created",
-    "year": 2000,
+    "id": "nickelodeon-splat-city-created",
+    "year": 1995,
     "type": "area",
-    "areaId": "nickelodeon-central",
-    "title": "Nickelodeon Central Opens",
-    "description": "Kings Island's iteration of a kids-focused area; adjacent to Hanna-Barbera Land(1972)."
+    "areaId": "nickelodeon-splat-city",
+    "title": "Nickelodeon Splat City Opens",
+    "description": "Kings Island's iteration of a kids-focused area with water playground; adjacent to Hanna-Barbera Land(1972)."
   },
   {
     "id": "nickelodeon-universe-created",
