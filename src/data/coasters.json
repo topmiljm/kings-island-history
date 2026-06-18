@@ -1052,13 +1052,23 @@
     "currentAreaId": null,
     "areaHistory": [
       {
-        "areaId": "safari",
+        "areaId": "adventure-village",
         "from": 1984,
-        "to": 1992
+        "to": 1986
+      },
+      {
+        "areaId": "wild-animal-habitat",
+        "from": 1987,
+        "to": 1993
+      },
+      {
+        "areaId": "adventure-village",
+        "from": 1994,
+        "to": 1998
       },
       {
         "areaId": "action-zone",
-        "from": 1993,
+        "from": 1999,
         "to": 2001
       }
     ],
@@ -1149,8 +1159,18 @@
     "currentAreaId": null,
     "areaHistory": [
       {
-        "areaId": "coney-mall",
+        "areaId": "safari",
         "from": 1977,
+        "to": 1982
+      },
+      {
+        "areaId": "adventure-village",
+        "from": 1983,
+        "to": 1986
+      },
+      {
+        "areaId": "wild-animal-habitat",
+        "from": 1987,
         "to": 1987
       }
     ],
