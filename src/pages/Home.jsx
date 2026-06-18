@@ -17,7 +17,7 @@ export default function Home() {
     <div className="home">
       <img
         className="home-img"
-        src="public/images/ki-coaster.png"
+        src="/images/ki-coaster.png"
       >
       </img>
       <h2>About Kings Island</h2>
@@ -30,7 +30,7 @@ export default function Home() {
       <figure>
         <img
           className="park-map-img"
-          src="public/images/ki park map-2.png"
+          src="/images/ki park map-2.png"
           onClick={setPreviewImage}
         >
         </img>
@@ -76,7 +76,7 @@ export default function Home() {
       <h3>Explore the History of Kings Island's Roller Coasters above...</h3>
       {previewImage && (
         <div className="image-preview-overlay" onClick={() => setPreviewImage(null)}>
-          <img src="public/images/ki park map-2.png" alt="preview" className="image-preview-large" />
+          <img src="/images/ki park map-2.png" alt="preview" className="image-preview-large" />
         </div>
       )}
     </div>
