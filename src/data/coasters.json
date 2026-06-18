@@ -102,11 +102,11 @@
       {
         "name": "Scooby Doo",
         "from": 1972,
-        "to": 2000
+        "to": 1979
       },
       {
         "name": "Beastie",
-        "from": 2001,
+        "from": 1980,
         "to": 2006
       },
       {
@@ -125,7 +125,8 @@
       "heightFt": 38.6,
       "speedMph": 35,
       "inversions": 0,
-      "durationMin": "1:30"
+      "durationMin": "1:30",
+      "capacityPerHour": 1200
     },
     "notes": "A tunnel was added at the bottom of the first drop in 1980 and subsequently removed after the 2005 season."
   },

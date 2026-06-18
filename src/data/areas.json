@@ -94,7 +94,7 @@
     "opened": 1972,
     "closed": 2023,
     "status": "retired",
-    "description": "German-themed area that was later transformed into Adventure Port.",
+    "description": "German-themed area.",
     "predecessorAreaId": null,
     "successorAreaId": "adventure-port"
   },
@@ -160,7 +160,7 @@
     "opened": 1983,
     "closed": 1985,
     "status": "retired",
-    "description": "",
+    "description": "First duration of Adventure Village.",
     "predecessorAreaId": "safari",
     "successorAreaId": "wild-animal-habitat"
   },
@@ -182,7 +182,7 @@
     "opened": 1994,
     "closed": 1998,
     "status": "retired",
-    "description": "",
+    "description": "The Wild Animal Habitat safari feature was removed and the area renamed back to Adventure Village in 1994.",
     "predecessorAreaId": "wild-animal-habitat",
     "successorAreaId": "action-zone"
   }

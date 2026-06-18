@@ -65,12 +65,19 @@
     "description": "Kings Island's iteration of a kids-focused area with water playground; adjacent to Hanna-Barbera Land(1972)."
   },
   {
+    "id": "fear-fest-begins",
+    "year": 2000,
+    "type": "event",
+    "title": "FearFest debuts",
+    "description": "Kings Island's annual late-season horror event (known as Halloween Haunt since 2007) begins."
+  },
+  {
     "id": "nickelodeon-universe-created",
     "year": 2006,
     "type": "area",
     "areaId": "nickelodeon-universe",
     "title": "Nickelodeon Universe Opens",
-    "description": "Nickelodeon kids area refurbished."
+    "description": "Hanna-Barbera and Nickelodeon Central kids areas collectively renamed to Nickelodeon Universe."
   },
   {
     "id": "planet-snoopy-created",

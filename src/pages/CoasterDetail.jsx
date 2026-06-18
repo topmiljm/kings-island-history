@@ -1,7 +1,10 @@
+import { useState } from "react";
 import { useParams } from "react-router-dom";
 import coasters from "../data/coasters.json";
 import manufacturers from "../data/manufacturers.json";
 import records from "../data/records.json";
+import videos from "../data/videos.json";
+import VideoModal from "../components/VideoModal";
 
 function formatLabel(id) {
     if (!id) return "Unknown";
@@ -13,6 +16,7 @@ function formatLabel(id) {
 
 export default function CoasterDetail() {
     const { slug } = useParams();
+    const [activeVideo, setActiveVideo] = useState(null);
 
     const coaster = coasters.find(c => c.slug === slug);
 
@@ -21,6 +25,8 @@ export default function CoasterDetail() {
     }
 
     const coasterRecords = records.filter(r => r.coasterId === coaster.id);
+    const coasterVideos = videos.find(v => v.coasterId === coaster.id)?.videos ?? [];
+
 
     const manufacturer = manufacturers.find(
         m => m.id === coaster.manufacturerId
@@ -50,6 +56,30 @@ export default function CoasterDetail() {
                     </div>
                 )}
             </header>
+
+            {/* Videos */}
+            {coasterVideos.length > 0 && (
+                <section>
+                    <h2>Videos</h2>
+                    <div className="coaster-detail-video-grid">
+                        {coasterVideos.map((video, i) => (
+                            <button
+                                key={i}
+                                className="coaster-detail-video-thumb"
+                                onClick={() => setActiveVideo(video)}
+                                aria-label={`Play video: ${video.title}`}
+                            >
+                                <img
+                                    src={`https://img.youtube.com/vi/${video.youtubeId}/hqdefault.jpg`}
+                                    alt={video.title}
+                                />
+                                <span className="coaster-detail-video-play">▶</span>
+                                <span className="coaster-detail-video-title">{video.title}</span>
+                            </button>
+                        ))}
+                    </div>
+                </section>
+            )}
 
             {/* Manufacturer */}
             {manufacturer && (
@@ -198,6 +228,7 @@ export default function CoasterDetail() {
                     </a>
                 </p>
             )}
+            <VideoModal video={activeVideo} onClose={() => setActiveVideo(null)} />
         </article>
     );
 }
