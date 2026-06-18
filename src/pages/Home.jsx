@@ -1,6 +1,10 @@
+import { useState } from "react";
 import areas from "../data/areas.json";
 
 export default function Home() {
+
+  const [previewImage, setPreviewImage] = useState(null);
+
   const activeAreas = areas
     .filter(a => a.status === "active" && a.id !== "camp-snoopy")
     .sort((a, b) => a.opened - b.opened);
@@ -11,6 +15,11 @@ export default function Home() {
 
   return (
     <div className="home">
+      <img
+        className="home-img"
+        src="./public/ki-coaster.png"
+      >
+      </img>
       <h2>About Kings Island</h2>
       <p>
         Kings Island is a premier amusement and water park located in Mason, Ohio, near Cincinnati.
@@ -18,6 +27,15 @@ export default function Home() {
         Known for iconic rides like The Beast and Orion, Kings Island is one of the largest and most famous seasonal amusement parks in the United States.
         As of 2024, the park is operated by Six Flags Entertainment Corporation.
       </p>
+      <figure>
+        <img
+          className="park-map-img"
+          src="./public/ki park map-2.png"
+          onClick={setPreviewImage}
+        >
+        </img>
+        <figcaption>Kings Island Park Map</figcaption>
+      </figure>
 
       <h3>Themed Areas</h3>
       <p>
@@ -56,6 +74,11 @@ export default function Home() {
       </ul>
 
       <h3>Explore the History of Kings Island's Roller Coasters above...</h3>
+      {previewImage && (
+        <div className="image-preview-overlay" onClick={() => setPreviewImage(null)}>
+          <img src="./public/ki park map-2.png" alt="preview" className="image-preview-large" />
+        </div>
+      )}
     </div>
   );
 }

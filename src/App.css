@@ -97,6 +97,38 @@ p {
   margin-top: 10px;
 }
 
+.home-img {
+  margin-top: 5px;
+  width: 60%;
+}
+
+.park-map-img {
+  margin-top: 20px;
+  width: 50%;
+}
+
+.park-map-img:hover {
+  cursor: zoom-in;
+}
+
+.image-preview-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.85);
+    z-index: 2000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: zoom-out;
+}
+
+.image-preview-large {
+    max-width: 90%;
+    max-height: 90vh;
+    border-radius: 12px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
 .home p {
   width: 90%;
   margin: 0 auto;
@@ -701,7 +733,6 @@ p {
     font-size: 11px;
   }
 }
-
 
 .decades-list {
   display: flex;
