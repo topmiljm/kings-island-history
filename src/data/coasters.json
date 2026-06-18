@@ -266,8 +266,13 @@
     "currentAreaId": "action-zone",
     "areaHistory": [
       {
-        "areaId": "action-zone",
+        "areaId": "adventure-village",
         "from": 1993,
+        "to": 1998
+      },
+      {
+        "areaId": "action-zone",
+        "from": 1999,
         "to": null
       }
     ],

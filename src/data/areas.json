@@ -154,6 +154,17 @@
     "successorAreaId": "adventure-village"
   },
   {
+    "id": "adventure-village",
+    "slug": "adventure-village",
+    "name": "Adventure Village",
+    "opened": 1983,
+    "closed": 1985,
+    "status": "retired",
+    "description": "",
+    "predecessorAreaId": "safari",
+    "successorAreaId": "wild-animal-habitat"
+  },
+  {
     "id": "wild-animal-habitat",
     "slug": "wild-animal-habitat",
     "name": "Wild Animal Habitat",
@@ -162,14 +173,12 @@
     "status": "retired",
     "description": "",
     "predecessorAreaId": "adventure-village",
-    "successorAreaId": "adventure-village"
+    "successorAreaId": "adventure-village-2"
   },
   {
-    "id": "adventure-village",
-    "slug": "adventure-village",
+    "id": "adventure-village-2",
+    "slug": "adventure-village-2",
     "name": "Adventure Village",
-    "firstopened": 1983,
-    "firstclosed": 1985,
     "opened": 1994,
     "closed": 1998,
     "status": "retired",

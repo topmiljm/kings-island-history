@@ -119,6 +119,10 @@ p {
   padding: 0;
 }
 
+.home-area-list-retired li {
+  border-bottom: 1px solid #eee;
+}
+
 .menu-grid {
   display: grid;
   gap: 15px;

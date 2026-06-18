@@ -18,7 +18,8 @@
     "year": 1974,
     "type": "area",
     "areaId": "safari",
-    "title": "Safari Area Opens"
+    "title": "Safari Area Opens",
+    "description": "Area features a monorail travelling through an exotic animal habitat."
   },
   {
     "id": "winterfest-debut",
@@ -39,6 +40,13 @@
     "year": 1992,
     "type": "event",
     "title": "Original WinterFest Ends"
+  },
+  {
+    "id": "animal-habitat-closes",
+    "year": 1993,
+    "type": "event",
+    "title": "Wild Animal Habitat closes",
+    "description": "Kings Island's exotic animal exhibit located in the original Safari area closes after 19 years."
   },
   {
     "id": "action-zone-created",
