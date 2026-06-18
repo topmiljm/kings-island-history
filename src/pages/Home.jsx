@@ -17,7 +17,7 @@ export default function Home() {
     <div className="home">
       <img
         className="home-img"
-        src="./public/ki-coaster.png"
+        src="public/ki-coaster.png"
       >
       </img>
       <h2>About Kings Island</h2>
@@ -30,7 +30,7 @@ export default function Home() {
       <figure>
         <img
           className="park-map-img"
-          src="./public/ki park map-2.png"
+          src="public/ki park map-2.png"
           onClick={setPreviewImage}
         >
         </img>
