@@ -749,7 +749,7 @@
     "currentName": "Great Pumpkin Coaster",
     "slug": "great-pumpkin-coaster",
     "status": "operating",
-    "opened": 1972,
+    "opened": 1992,
     "closed": null,
     "classification": {
       "material": "steel",
@@ -765,7 +765,7 @@
     "areaHistory": [
       {
         "areaId": "hanna-barbera-land",
-        "from": 1972,
+        "from": 1992,
         "to": 1999
       },
       {
@@ -787,17 +787,17 @@
     "nameHistory": [
       {
         "name": "Scooby Zoom",
-        "from": 1972,
-        "to": 2000
+        "from": 1992,
+        "to": 1997
       },
       {
         "name": "Top Cat's Taxi Jam",
-        "from": 2001,
-        "to": 2006
+        "from": 1998,
+        "to": 2005
       },
       {
         "name": "Little Bill's Giggle Coaster",
-        "from": 2007,
+        "from": 2006,
         "to": 2009
       },
       {
