@@ -1,8 +1,10 @@
 import { NavLink, Link, Outlet } from "react-router-dom";
+import ScrollToTop from "./ScrollToTop";
 
 export default function Layout() {
   return (
     <>
+      <ScrollToTop />
       <header className="site-header">
         <Link to="/">
           <h1>Kings Island Coaster History</h1>
