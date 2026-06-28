@@ -170,7 +170,12 @@
       "speedMph": 64.8,
       "inversions": 0,
       "durationSec": 250,
-      "capacityPerHour": 1200
+      "capacityPerHour": 1200,
+      "elements": [
+        "Two chain lift hills",
+        "540-degree helix",
+        "3 train operating"
+      ]
     },
     "records": [
       {
@@ -188,9 +193,24 @@
         "description": "Opened to the public"
       },
       {
+        "year": 1980,
+        "type": "tunnels",
+        "description": "Tunnels added to the ride; enclosure of the 540-degree helix."
+      },
+      {
+        "year": 2003,
+        "type": "brakes",
+        "description": "Magnetic brakes added to the ride."
+      },
+      {
+        "year": 2022,
+        "type": "retrack",
+        "description": "Major retracking on first drop hill which extended the ride by 2 additional feet."
+      },
+      {
         "year": 2026,
         "type": "retrack",
-        "description": "Major retracking project completed"
+        "description": "Major retracking project on the second drop hill."
       }
     ],
     "notes": "Remains the longest wooden roller coaster in the world since its opening in 1979."
