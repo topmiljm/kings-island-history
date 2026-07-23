@@ -36,10 +36,15 @@ export default function Home() {
         </img>
         <figcaption>Current Kings Island Park Map</figcaption>
       </figure>
+      {previewImage && (
+        <div className="image-preview-overlay" onClick={() => setPreviewImage(null)}>
+          <img src="/images/ki park map-2.png" alt="preview" className="image-preview-large" />
+        </div>
+      )}
 
       <h3>Themed Areas</h3>
       <p>
-        Kings Island currently features {activeAreas.length} distinct themed areas, plus Soak City Water Park.
+        Kings Island currently features {activeAreas.length} distinctly themed areas, plus Soak City Water Park.
         With the exception of International Street and Soak City, each themed area contains roller coasters:
       </p>
       <ul className="home-area-list">
@@ -73,12 +78,12 @@ export default function Home() {
         })}
       </ul>
 
-      <h3>Explore the History of Kings Island's Roller Coasters above...</h3>
-      {previewImage && (
-        <div className="image-preview-overlay" onClick={() => setPreviewImage(null)}>
-          <img src="/images/ki park map-2.png" alt="preview" className="image-preview-large" />
-        </div>
-      )}
+      <h3
+        className="link-top-page"
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+      >
+        ^Explore the History of Kings Island's Roller Coasters above^
+      </h3>
     </div>
   );
 }
