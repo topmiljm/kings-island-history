@@ -34,7 +34,7 @@ export default function Home() {
           onClick={setPreviewImage}
         >
         </img>
-        <figcaption>Kings Island Park Map</figcaption>
+        <figcaption>Current Kings Island Park Map</figcaption>
       </figure>
 
       <h3>Themed Areas</h3>
@@ -51,7 +51,7 @@ export default function Home() {
         ))}
       </ul>
 
-      <h3>Area History</h3>
+      <h3>Area Histories</h3>
       <p>
         Several of today's areas grew out of earlier sections of the park that have since been
         rethemed or retired:

@@ -6,9 +6,13 @@ export default function Layout() {
     <>
       <ScrollToTop />
       <header className="site-header">
-        <Link to="/">
-          <h1>Kings Island Coaster History</h1>
-        </Link>
+        <div className="header-link">
+          <Link to="/">
+            <img src="/favicon.png"></img>
+          </Link>
+        </div>
+        <h1>Kings Island Coaster History</h1>
+
 
         <nav>
           <NavLink to="/coasters" className={({ isActive }) => isActive ? "active" : ""}>

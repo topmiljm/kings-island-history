@@ -54,17 +54,23 @@ p {
   border-bottom: 1px solid #ddd;
 }
 
+.header-link {
+  display: flex;
+  justify-content: center;
+}
+
+.header-link img {
+  width: 4.5em;
+}
+
+.header-link img:hover {
+  opacity: 90%;
+}
+
 .site-header h1 {
   margin: 10px auto 20px;
   line-height: 2.5rem;
-}
-
-.site-header h1:hover {
   color: lightslategray;
-}
-
-.site-header h1:active {
-  color: lightblue;
 }
 
 .site-header nav {
@@ -81,6 +87,7 @@ p {
 
 .site-header a:hover {
   color: lightslategray;
+  font-style: italic;
 }
 
 .site-header a:active {
@@ -89,6 +96,8 @@ p {
 
 .site-header a.active {
   color: blue;
+  font-style: italic;
+  font-weight: 500;
 }
 
 /* ===== HOME ===== */
@@ -100,11 +109,13 @@ p {
 .home-img {
   margin-top: 5px;
   width: 60%;
+  border-radius: 10px;
 }
 
 .park-map-img {
   margin-top: 20px;
   width: 50%;
+  border-radius: 10px;
 }
 
 .park-map-img:hover {
@@ -112,21 +123,25 @@ p {
 }
 
 .image-preview-overlay {
-    position: fixed;
-    inset: 0;
-    background: rgba(0, 0, 0, 0.85);
-    z-index: 2000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: zoom-out;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.85);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: zoom-out;
 }
 
 .image-preview-large {
-    max-width: 90%;
-    max-height: 90vh;
-    border-radius: 12px;
-    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+  max-width: 90%;
+  max-height: 90vh;
+  border-radius: 12px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+}
+
+.home h3 {
+  color: blue;
 }
 
 .home p {
@@ -154,6 +169,20 @@ p {
 .home-area-list-retired li {
   padding: 8px 0;
   border-bottom: 1px solid #eee;
+}
+
+.home-area-list li:hover,
+.home-area-list-retired li:hover {
+  opacity: 70%;
+  font-style: italic;
+  cursor: grab;
+}
+
+.home-area-list li:hover,
+.home-area-list-retired li:hover {
+  opacity: 70%;
+  font-style: italic;
+  cursor: grab;
 }
 
 .menu-grid {
@@ -219,6 +248,9 @@ p {
 .coaster-card:hover {
   transform: translateY(-2px);
   background-color: rgb(242, 235, 235);
+  font-style: italic;
+  cursor: grab;
+  opacity: 90%;
 }
 
 .coaster-card h2 {
@@ -378,6 +410,8 @@ p {
   padding: 10px 0;
   border-bottom: 1px solid #f3f3f3;
 }
+
+
 
 .coaster-detail-timeline-entry:last-child {
   border-bottom: none;
@@ -579,6 +613,14 @@ p {
   padding-bottom: 20px;
 }
 
+.timeline-row:hover {
+  opacity: 90%;
+  cursor: grab;
+  font-style: italic;
+  background-color: rgb(242, 235, 235);
+  border-radius: 10px;
+}
+
 .timeline-row .timeline-dot {
   position: absolute;
   left: -29px;
@@ -739,6 +781,7 @@ p {
   flex-direction: column;
   gap: 24px;
   text-align: left;
+  margin-bottom: 20px;
 }
 
 .decade-card {
@@ -746,6 +789,13 @@ p {
   border-radius: 10px;
   padding: 16px 20px;
   background: white;
+}
+
+.decade-card:hover {
+  transform: translateY(-2px);
+  background-color: rgb(242, 235, 235);
+  cursor: grab;
+  font-style: italic;
 }
 
 .decade-coaster-list {
@@ -785,6 +835,10 @@ p {
   text-align: center;
 }
 
+.records-page img {
+  width: 3rem;
+}
+
 .records-page section {
   margin-bottom: 32px;
 }
@@ -793,11 +847,18 @@ p {
   list-style: none;
   margin: 0;
   padding: 0;
+  color: blue;
 }
 
 .records-page-list li {
   padding: 12px 0;
   border-bottom: 1px solid #eee;
+}
+
+.records-page-list li:hover {
+  opacity: 70%;
+  cursor: grab;
+  font-style: italic;
 }
 
 .records-page-list li:last-child {

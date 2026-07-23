@@ -1,10 +1,10 @@
-# Kings Island Coaster History
-
-A comprehensive React application documenting the complete history of every roller coaster at **Kings Island**. The application combines historical data, interactive navigation, and a relational JSON database to create a digital archive of Kings Island's roller coaster history from 1972 to the present.
-
 ## Live Demo
 
 **https://kingsislandcoasters.vercel.app**
+
+# Kings Island Coaster History
+
+A comprehensive React application documenting the complete history of every roller coaster at **Kings Island**. The application combines historical data, interactive navigation, and a relational JSON database to create a digital archive of Kings Island's roller coaster history from 1972 to the present.
 
 ## Features
 
@@ -110,7 +110,8 @@ src/
 ## Planned Enhancements
 
 * Interactive visual timeline
-* Park map with coaster locations
+* Historical park maps from past years
+* Coaster images/ off-ride videos/ coaster logos
 * Statistics dashboard
 * Manufacturer detail pages
 * Area detail pages
@@ -125,7 +126,7 @@ src/
 Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/kings-island-history.git
+git clone https://github.com/topmiljm/kings-island-history.git
 ```
 
 Navigate into the project:

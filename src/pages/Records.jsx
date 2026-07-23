@@ -13,7 +13,7 @@ export default function Records() {
             <h1>Records</h1>
 
             <section>
-                <h2>Current Records</h2>
+                <h2>Current Records <img src="/images/award.png"></img></h2>
                 <ul className="records-page-list">
                     {stillHeld.map(r => (
                         <li key={r.id}>
