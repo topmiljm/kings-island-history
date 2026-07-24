@@ -82,7 +82,7 @@ export default function Home() {
         className="link-top-page"
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       >
-        ^Explore the History of Kings Island's Roller Coasters above^
+        ^Explore the History of Kings Island's Roller Coasters...
       </h3>
     </div>
   );

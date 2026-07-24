@@ -261,7 +261,10 @@
       "speedMph": 35,
       "inversions": 0,
       "durationMin": "2:20",
-      "capacityPerHour": 1600
+      "capacityPerHour": 1600,
+      "elements": [
+        "Two chain lift hills"
+      ]
     },
     "notes": "Themed by R&R Creative Amusement Designs, Inc. Originally operated three trains; typically two run simultaneously today."
   },
@@ -1158,7 +1161,10 @@
       "speedMph": 34,
       "inversions": 0,
       "capacityPerHour": 1700,
-      "costUSD": 3800000
+      "costUSD": 3800000,
+      "elements": [
+        "Two chain lift hills"
+      ]
     },
     "notes": "First suspended coaster ever built. Plagued with mechanical problems; closed permanently in 1983. Cars could swing up to 100 degrees. After demolition, the site was used for Vortex."
   },

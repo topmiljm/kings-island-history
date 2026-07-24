@@ -35,6 +35,13 @@ export default function Records() {
                     ))}
                 </ul>
             </section>
+            <h3
+                className="link-top-page"
+                style={{ margin: "0 auto", width: "200px" }}
+                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            >
+                ^Climb Back Up...
+            </h3>
         </div>
     );
 }

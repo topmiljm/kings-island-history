@@ -29,8 +29,8 @@ export default function Coasters() {
       material === "all" ||
       coaster.classification.material === material;
 
-    const matchesArea = 
-      area === "all" || 
+    const matchesArea =
+      area === "all" ||
       coaster.currentAreaId === area;
 
     return (
@@ -65,6 +65,12 @@ export default function Coasters() {
         areas={areas}
         manufacturers={manufacturers}
       />
+      <h3
+        className="link-top-page"
+        onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+      >
+        ^Climb Back Up...
+      </h3>
     </div>
   );
 }
