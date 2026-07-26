@@ -9,39 +9,43 @@ export default function Records() {
         coasters.find(c => c.id === id)?.currentName ?? id;
 
     return (
-        <div className="records-page">
-            <h1>Records</h1>
+        <div>
+            <div className="records-page">
+                <h1>Records</h1>
 
-            <section>
-                <h2>Current Records <img src="/images/award-2.png"></img></h2>
-                <ul className="records-page-list">
-                    {stillHeld.map(r => (
-                        <li key={r.id}>
-                            <strong>{coasterName(r.coasterId)}</strong> — {r.title} ({r.yearAwarded})
-                            <p>{r.notes}</p>
-                        </li>
-                    ))}
-                </ul>
-            </section>
+                <section>
+                    <h2>Current Records <img src="/images/award-2.png"></img></h2>
+                    <ul className="records-page-list">
+                        {stillHeld.map(r => (
+                            <li key={r.id}>
+                                <strong>{coasterName(r.coasterId)}</strong> — {r.title} ({r.yearAwarded})
+                                <p>{r.notes}</p>
+                            </li>
+                        ))}
+                    </ul>
+                </section>
 
-            <section>
-                <h2>Historical Records</h2>
-                <ul className="records-page-list">
-                    {historical.map(r => (
-                        <li key={r.id}>
-                            <strong>{coasterName(r.coasterId)}</strong> — {r.title} ({r.yearAwarded}–{r.yearLost})
-                            <p>{r.notes}</p>
-                        </li>
-                    ))}
-                </ul>
-            </section>
-            <h3
-                className="link-top-page"
-                style={{ margin: "0 auto", width: "200px" }}
-                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            >
-                ^Climb Back Up...
-            </h3>
+                <section>
+                    <h2>Historical Records</h2>
+                    <ul className="records-page-list">
+                        {historical.map(r => (
+                            <li key={r.id}>
+                                <strong>{coasterName(r.coasterId)}</strong> — {r.title} ({r.yearAwarded}–{r.yearLost})
+                                <p>{r.notes}</p>
+                            </li>
+                        ))}
+                    </ul>
+                </section>
+
+            </div>
+            <div className="link-to-top-container">
+                <h3
+                    className="link-top-page"
+                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                >
+                    ^Climb To The Top...
+                </h3>
+            </div>
         </div>
     );
 }

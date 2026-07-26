@@ -56,7 +56,7 @@ export default function Home() {
         ))}
       </ul>
 
-      <h3>Area Histories</h3>
+      <h3>Areas History</h3>
       <p>
         Several of today's areas grew out of earlier sections of the park that have since been
         rethemed or retired:
@@ -81,6 +81,7 @@ export default function Home() {
       <h3
         className="link-top-page"
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+        // style={{ marginTop: "20px", padding: "20px 0", display: "inline"}}
       >
         ^Explore the History of Kings Island's Roller Coasters...
       </h3>

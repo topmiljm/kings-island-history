@@ -93,12 +93,14 @@ export default function Timeline() {
                 ))}
             </div>
 
-            <h3
-                className="link-top-page"
-                onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            >
-                ^Climb Back Up...
-            </h3>
+            <div className="link-to-top-container">
+                <h3
+                    className="link-top-page"
+                    onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+                >
+                    ^Climb To The Top...
+                </h3>
+            </div>
         </div>
     );
 }
