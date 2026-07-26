@@ -1,10 +1,45 @@
+/* ===== THEME VARIABLES ===== */
+
+:root {
+  --color-bg: #ffffff;
+  --color-bg-card: #ffffff;
+  --color-bg-hover: rgb(242, 235, 235);
+  --color-border: #ddd;
+  --color-border-subtle: #eee;
+  --color-border-faint: #f3f3f3;
+  --color-text: #333;
+  --color-text-heading: #111;
+  --color-text-secondary: #666;
+  --color-text-tertiary: #888;
+  --color-text-nav: #000;
+  --color-accent: #378ADD;
+  --color-accent-hover: #2a6db5;
+  --color-highlight: blue;
+  --color-header-title: lightslategray;
+}
+
+[data-theme="dark"] {
+  --color-bg: #0f0f0f;
+  --color-bg-card: #1a1a1a;
+  --color-bg-hover: #252525;
+  --color-border: #333;
+  --color-border-subtle: #2a2a2a;
+  --color-border-faint: #222;
+  --color-text: #d1d1d1;
+  --color-text-heading: #f0f0f0;
+  --color-text-secondary: #999;
+  --color-text-tertiary: #666;
+  --color-text-nav: #e0e0e0;
+  --color-accent: #5aa3e8;
+  --color-accent-hover: #378ADD;
+  --color-highlight: #5aa3e8;
+  --color-header-title: #8faabe;
+}
+
 /* ===== GLOBAL ===== */
 
 :root {
   font-family: system-ui, "Segoe UI", Roboto, sans-serif;
-  color: #333;
-  background: #fff;
-
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -16,6 +51,9 @@
 
 body {
   margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
 #root {
@@ -29,7 +67,7 @@ body {
 
 h1,
 h2 {
-  color: #111;
+  color: var(--color-text-heading);
   font-weight: 600;
 }
 
@@ -51,7 +89,8 @@ p {
 
 .site-header {
   padding: 10px 20px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid var(--color-border);
+  background: var(--color-bg);
 }
 
 .header-link {
@@ -70,19 +109,20 @@ p {
 .site-header h1 {
   margin: 10px auto 20px;
   line-height: 2.5rem;
-  color: lightslategray;
+  color: var(--color-header-title);
 }
 
 .site-header nav {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 20px;
   flex-wrap: wrap;
 }
 
 .site-header a {
   text-decoration: none;
-  color: black;
+  color: var(--color-text-nav);
 }
 
 .site-header a:hover {
@@ -95,9 +135,28 @@ p {
 }
 
 .site-header a.active {
-  color: blue;
+  color: var(--color-highlight);
   font-style: italic;
   font-weight: 500;
+}
+
+/* ===== THEME TOGGLE ===== */
+
+.theme-toggle {
+  background: none;
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1;
+  color: var(--color-text);
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.theme-toggle:hover {
+  background: var(--color-bg-hover);
+  border-color: var(--color-accent);
 }
 
 /* ===== HOME ===== */
@@ -141,12 +200,13 @@ p {
 }
 
 .home h3 {
-  color: blue;
+  color: var(--color-highlight);
 }
 
 .home p {
   width: 90%;
   margin: 0 auto;
+  color: var(--color-text);
 }
 
 .home-area-list {
@@ -157,8 +217,9 @@ p {
 
 .home-area-list li {
   padding: 12px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--color-border-subtle);
   margin: 0 20px;
+  color: var(--color-text);
 }
 
 .home-area-list-retired {
@@ -169,8 +230,9 @@ p {
 
 .home-area-list-retired li {
   padding: 8px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--color-border-subtle);
   margin: 0 20px;
+  color: var(--color-text);
 }
 
 .home-area-list li:hover,
@@ -178,15 +240,8 @@ p {
   opacity: 70%;
   font-style: italic;
   cursor: grab;
-  border-left: 3px solid rgb(242, 235, 235);
+  border-left: 3px solid var(--color-border-subtle);
   padding-left: 5px;
-}
-
-.home-area-list li:hover,
-.home-area-list-retired li:hover {
-  opacity: 70%;
-  font-style: italic;
-  cursor: grab;
 }
 
 .menu-grid {
@@ -198,15 +253,15 @@ p {
 
 .menu-grid a {
   padding: 12px;
-  border: 1px solid #ddd;
+  border: 1px solid var(--color-border);
   border-radius: 10px;
   text-decoration: none;
-  color: black;
-  background: white;
+  color: var(--color-text-heading);
+  background: var(--color-bg-card);
 }
 
 .menu-grid a:hover {
-  background: rgb(242, 235, 235);
+  background: var(--color-bg-hover);
 }
 
 .home a {
@@ -214,10 +269,10 @@ p {
 }
 
 .link-top-page:hover {
-text-decoration: underline;
-font-style: italic;
-color: lightslategray;
-cursor: pointer;
+  text-decoration: underline;
+  font-style: italic;
+  color: lightslategray;
+  cursor: pointer;
 }
 
 /* ===== COASTER PAGE ===== */
@@ -228,6 +283,14 @@ cursor: pointer;
   padding: 10px;
   margin: 0 auto 15px;
   display: block;
+  background: var(--color-bg-card);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+}
+
+.coaster-search::placeholder {
+  color: var(--color-text-tertiary);
 }
 
 .filters {
@@ -238,12 +301,21 @@ cursor: pointer;
   flex-wrap: wrap;
 }
 
+.filters select {
+  background: var(--color-bg-card);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  border-radius: 6px;
+  padding: 6px 10px;
+}
+
 .coaster-stats {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 15px;
   margin-bottom: 20px;
+  color: var(--color-text-secondary);
 }
 
 .coaster-grid {
@@ -253,32 +325,34 @@ cursor: pointer;
 }
 
 .coaster-card {
-  border: 1px solid #ddd;
+  border: 1px solid var(--color-border);
   border-radius: 10px;
   padding: 16px;
-  background: white;
+  background: var(--color-bg-card);
   transition: 0.2s ease;
 }
 
 .coaster-card:hover {
   transform: translateY(-2px);
-  background-color: rgb(242, 235, 235);
+  background-color: var(--color-bg-hover);
   font-style: italic;
   cursor: grab;
   opacity: 90%;
 }
 
 .coaster-card h2 {
-  color: black;
+  color: var(--color-text-heading);
 }
 
 .coaster-meta {
   margin: 4px 0;
+  color: var(--color-text-secondary);
 }
 
 .details-link {
   display: inline-block;
   margin-top: 10px;
+  color: var(--color-accent);
 }
 
 /* ===== COASTER DETAIL PAGE ===== */
@@ -294,7 +368,7 @@ cursor: pointer;
   text-align: center;
   padding-bottom: 28px;
   margin-bottom: 28px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--color-border-subtle);
 }
 
 .coaster-detail-header h1 {
@@ -303,7 +377,7 @@ cursor: pointer;
 }
 
 .coaster-detail-status {
-  color: #666;
+  color: var(--color-text-secondary);
   margin-bottom: 10px;
 }
 
@@ -313,19 +387,19 @@ cursor: pointer;
   flex-wrap: wrap;
   gap: 6px;
   font-size: 13px;
-  color: #378ADD;
+  color: var(--color-accent);
   font-weight: 500;
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
 
 .coaster-detail-classification .dot {
-  color: #ccc;
+  color: var(--color-border);
 }
 
 .coaster-detail section {
   padding: 28px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--color-border-subtle);
 }
 
 .coaster-detail section:last-of-type {
@@ -336,14 +410,14 @@ cursor: pointer;
   font-size: 1rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #888;
+  color: var(--color-text-tertiary);
   font-weight: 600;
   margin-bottom: 14px;
 }
 
 .coaster-detail h3 {
   font-size: 0.9rem;
-  color: #444;
+  color: var(--color-text-secondary);
   font-weight: 600;
   margin: 16px 0 8px;
 }
@@ -356,8 +430,8 @@ cursor: pointer;
 
 .coaster-detail ul li {
   padding: 7px 0;
-  border-bottom: 1px solid #f3f3f3;
-  color: #333;
+  border-bottom: 1px solid var(--color-border-faint);
+  color: var(--color-text);
 }
 
 .coaster-detail ul li:last-child {
@@ -366,12 +440,13 @@ cursor: pointer;
 
 .coaster-detail-manufacturer {
   font-size: 1rem;
-  color: #333;
+  color: var(--color-text);
 }
 
 .coaster-detail-track {
   padding: 7px 0;
-  border-bottom: 1px solid #f3f3f3;
+  border-bottom: 1px solid var(--color-border-faint);
+  color: var(--color-text);
 }
 
 .coaster-detail-track:last-child {
@@ -379,13 +454,13 @@ cursor: pointer;
 }
 
 .coaster-detail-track strong {
-  color: #378ADD;
+  color: var(--color-accent);
 }
 
 .coaster-detail-history-entry {
   padding: 7px 0;
-  border-bottom: 1px solid #f3f3f3;
-  color: #333;
+  border-bottom: 1px solid var(--color-border-faint);
+  color: var(--color-text);
 }
 
 .coaster-detail-history-entry:last-child {
@@ -393,17 +468,17 @@ cursor: pointer;
 }
 
 .coaster-detail-history-years {
-  color: #888;
+  color: var(--color-text-tertiary);
   font-size: 13px;
 }
 
 .coaster-detail-history-note {
-  color: #888;
+  color: var(--color-text-secondary);
 }
 
 .coaster-detail-record {
   padding: 10px 0;
-  border-bottom: 1px solid #f3f3f3;
+  border-bottom: 1px solid var(--color-border-faint);
 }
 
 .coaster-detail-record:last-child {
@@ -411,40 +486,38 @@ cursor: pointer;
 }
 
 .coaster-detail-record-title {
-  color: #333;
+  color: var(--color-text);
   font-weight: 500;
 }
 
 .coaster-detail-record-meta {
   font-size: 13px;
-  color: #888;
+  color: var(--color-text-secondary);
   margin-top: 2px;
 }
 
 .coaster-detail-timeline-entry {
   padding: 10px 0;
-  border-bottom: 1px solid #f3f3f3;
+  border-bottom: 1px solid var(--color-border-faint);
 }
-
-
 
 .coaster-detail-timeline-entry:last-child {
   border-bottom: none;
 }
 
 .coaster-detail-timeline-year {
-  color: #378ADD;
+  color: var(--color-accent);
   font-weight: 600;
 }
 
 .coaster-detail-timeline-desc {
   font-size: 13px;
-  color: #666;
+  color: var(--color-text-secondary);
   margin: 4px 0 0;
 }
 
 .coaster-detail-notes p {
-  color: #444;
+  color: var(--color-text);
   line-height: 1.6;
 }
 
@@ -454,7 +527,7 @@ cursor: pointer;
 }
 
 .coaster-detail-rcdb a {
-  color: #378ADD;
+  color: var(--color-accent);
   text-decoration: none;
   font-size: 14px;
   border-bottom: 1px solid transparent;
@@ -462,7 +535,7 @@ cursor: pointer;
 }
 
 .coaster-detail-rcdb a:hover {
-  border-bottom-color: #378ADD;
+  border-bottom-color: var(--color-accent);
 }
 
 /* ===== COASTER DETAIL — VIDEOS ===== */
@@ -576,7 +649,7 @@ cursor: pointer;
 }
 
 .video-modal-close:hover {
-  color: #378ADD;
+  color: var(--color-accent);
 }
 
 /* ===== TIMELINE PAGE ===== */
@@ -593,7 +666,7 @@ cursor: pointer;
   flex-wrap: wrap;
   margin-bottom: 1.5rem;
   font-size: 13px;
-  color: #666;
+  color: var(--color-text-secondary);
   width: 60%;
   margin: 0 auto 30px;
 }
@@ -614,25 +687,25 @@ cursor: pointer;
 
 .timeline-list {
   position: relative;
-  border-left: 1px solid #ddd;
+  border-left: 1px solid var(--color-border);
   padding-left: 24px;
   margin-left: 6px;
   text-align: left;
   max-width: 600px;
-  margin-right: auto;
   margin: 0 auto;
 }
 
 .timeline-row {
   position: relative;
   padding-bottom: 20px;
+  color: var(--color-text);
 }
 
 .timeline-row:hover {
   opacity: 90%;
   cursor: grab;
   font-style: italic;
-  background-color: rgb(242, 235, 235);
+  background-color: var(--color-bg-hover);
   border-radius: 10px;
   padding-left: 5px;
 }
@@ -650,7 +723,7 @@ cursor: pointer;
 
 .timeline-description {
   font-size: 13px;
-  color: #666;
+  color: var(--color-text-secondary);
   margin: 4px 0 0;
 }
 
@@ -663,7 +736,7 @@ cursor: pointer;
 }
 
 .decades-subtitle {
-  color: #666;
+  color: var(--color-text-secondary);
   margin-bottom: 26px;
 }
 
@@ -683,7 +756,6 @@ cursor: pointer;
   width: 20px;
   height: 120px;
   margin-bottom: 20px;
-  /* 41px = bar-track height offset (21px) + bar-label row, keeps 0-tick level with the bar baseline */
 }
 
 .decades-y-tick {
@@ -691,7 +763,7 @@ cursor: pointer;
   left: 0;
   right: 0;
   font-size: 12px;
-  color: #888;
+  color: var(--color-text-tertiary);
   line-height: 1;
   transform: translateY(50%);
   text-align: right;
@@ -712,7 +784,7 @@ cursor: pointer;
   position: absolute;
   left: 0;
   right: 0;
-  border-top: 1px dashed #e5e5e5;
+  border-top: 1px dashed var(--color-border-subtle);
   z-index: 0;
 }
 
@@ -737,16 +809,15 @@ cursor: pointer;
   transform: translateX(-50%);
   font-size: 12px;
   font-weight: 600;
-  color: #333;
+  color: var(--color-text);
 }
 
 .decades-chart-caption {
   text-align: center;
   font-size: 12px;
-  color: #888;
+  color: var(--color-text-tertiary);
   margin-bottom: 30px;
 }
-
 
 .decades-bar-track {
   display: flex;
@@ -759,37 +830,15 @@ cursor: pointer;
   position: relative;
   width: 100%;
   min-height: 4px;
-  background: #378ADD;
+  background: var(--color-accent);
   border-radius: 4px 4px 0 0;
   transition: 0.2s ease;
 }
 
 .decades-bar-label {
   font-size: 12px;
-  color: #666;
+  color: var(--color-text-secondary);
   white-space: nowrap;
-}
-
-@media (max-width: 480px) {
-  .decades-chart {
-    gap: 8px;
-  }
-
-  .decades-bar-track {
-    width: 24px;
-  }
-
-  .decades-bar-label {
-    font-size: 11px;
-  }
-
-  .decades-y-axis {
-    width: 16px;
-  }
-
-  .decades-y-tick {
-    font-size: 11px;
-  }
 }
 
 .decades-list {
@@ -801,15 +850,19 @@ cursor: pointer;
 }
 
 .decade-card {
-  border: 1px solid #ddd;
+  border: 1px solid var(--color-border);
   border-radius: 10px;
   padding: 16px 20px;
-  background: white;
+  background: var(--color-bg-card);
+}
+
+.decade-card h2 {
+  color: var(--color-text-heading);
 }
 
 .decade-card:hover {
   transform: translateY(-2px);
-  background-color: rgb(242, 235, 235);
+  background-color: var(--color-bg-hover);
   cursor: grab;
   font-style: italic;
 }
@@ -821,22 +874,31 @@ cursor: pointer;
 
 .decade-coaster-list li {
   margin-bottom: 4px;
+  color: var(--color-text);
+}
+
+.decade-coaster-list a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.decade-coaster-list a:hover {
+  text-decoration: underline;
 }
 
 .decade-empty {
-  color: #888;
+  color: var(--color-text-tertiary);
   list-style: none;
   padding-left: 0;
 }
 
 .decade-highlight {
-  color: #555;
+  color: var(--color-text-secondary);
   font-size: 14px;
-  border-left: 3px solid #378ADD;
+  border-left: 3px solid var(--color-accent);
   padding-left: 12px;
   margin: 0;
 }
-
 
 /* ===== RECORDS PAGE ===== */
 
@@ -863,19 +925,20 @@ cursor: pointer;
   list-style: none;
   margin: 0;
   padding: 0;
-  color: blue;
+  color: var(--color-highlight);
 }
 
 .records-page-list li {
   padding: 12px 0;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid var(--color-border-subtle);
+  color: var(--color-accent);
 }
 
 .records-page-list li:hover {
   opacity: 70%;
   cursor: grab;
   font-style: italic;
-  border-left: 3px solid rgb(242, 235, 235);
+  border-left: 3px solid var(--color-border-subtle);
   padding-left: 5px;
 }
 
@@ -884,28 +947,21 @@ cursor: pointer;
 }
 
 .records-page-list strong {
-  color: #111;
+  color: var(--color-text-heading);
 }
 
 .records-page-list p {
   font-size: 13px;
-  color: #666;
+  color: var(--color-text-secondary);
   margin-top: 4px;
   line-height: 1.5;
-}
-
-@media (max-width: 480px) {
-  .records-page {
-    padding: 0 1.25rem 40px;
-  }
 }
 
 /* ===== RESPONSIVE ===== */
 
 @media (min-width: 768px) {
   .coaster-grid {
-    grid-template-columns: repeat(auto-fill,
-        minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   }
 }
 
@@ -930,5 +986,29 @@ cursor: pointer;
 
   .timeline-row .timeline-dot {
     left: -25px;
+  }
+
+  .decades-chart {
+    gap: 8px;
+  }
+
+  .decades-bar-track {
+    width: 24px;
+  }
+
+  .decades-bar-label {
+    font-size: 11px;
+  }
+
+  .decades-y-axis {
+    width: 16px;
+  }
+
+  .decades-y-tick {
+    font-size: 11px;
+  }
+
+  .records-page {
+    padding: 0 1.25rem 40px;
   }
 }
