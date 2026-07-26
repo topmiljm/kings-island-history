@@ -6,7 +6,7 @@
     "opened": 1972,
     "closed": null,
     "status": "active",
-    "description": "The main entrance area and central hub of Kings Island. There are no roller coasters in this area.",
+    "description": "The main entrance area and central hub of Kings Island.",
     "predecessorAreaId": null,
     "successorAreaId": null
   },
@@ -43,7 +43,7 @@
     "predecessorAreaId": "nickelodeon-universe",
     "successorAreaId": null
   },
-  { 
+  {
     "id": "camp-snoopy",
     "slug": "camp-snoopy",
     "name": "Camp Snoopy",
@@ -83,8 +83,8 @@
     "opened": 2023,
     "closed": null,
     "status": "active",
-    "description": "Adventure-themed area replacing the former Oktoberfest identity.",
-    "predecessorAreaId": "oktoberfest",
+    "description": "Adventure-themed area created from the eastern portion of Oktoberfest.",
+    "predecessorAreaId": null,
     "successorAreaId": null
   },
   {
@@ -92,11 +92,11 @@
     "slug": "oktoberfest",
     "name": "Oktoberfest",
     "opened": 1972,
-    "closed": 2023,
-    "status": "retired",
-    "description": "German-themed area.",
+    "closed": null,
+    "status": "active",
+    "description": "German-themed area. In 2023, the eastern portion was reimagined as Adventure Port while the western portion remained Oktoberfest.",
     "predecessorAreaId": null,
-    "successorAreaId": "adventure-port"
+    "successorAreaId": null
   },
   {
     "id": "hanna-barbera-land",

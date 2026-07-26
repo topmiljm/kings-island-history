@@ -45,7 +45,7 @@ export default function Home() {
       <h3>Themed Areas</h3>
       <p>
         Kings Island currently features {activeAreas.length} distinctly themed areas, plus Soak City Water Park.
-        With the exception of International Street and Soak City, each themed area contains roller coasters:
+        With the exception of International Street and Oktoberfest, each themed area contains roller coasters:
       </p>
       <ul className="home-area-list">
         {activeAreas.map(area => (
