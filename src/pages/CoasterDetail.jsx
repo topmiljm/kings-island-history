@@ -26,7 +26,7 @@ export default function CoasterDetail() {
 
     const coasterRecords = records.filter(r => r.coasterId === coaster.id);
     const coasterVideos = videos.find(v => v.coasterId === coaster.id)?.videos ?? [];
-
+    const logoSrc = `/logos/${coaster.slug}.png`;
 
     const manufacturer = manufacturers.find(
         m => m.id === coaster.manufacturerId
@@ -38,6 +38,14 @@ export default function CoasterDetail() {
         <article className="coaster-detail">
             <header className="coaster-detail-header">
                 <h1>{coaster.currentName}</h1>
+                <div className="coaster-card-logo">
+                    <img
+                        src={logoSrc}
+                        alt={`${coaster.currentName} logo`}
+                        className="coaster-logo-img-2"
+                        onError={(e) => { e.currentTarget.style.display = "none"; }}
+                    />
+                </div>
                 <p className="coaster-detail-status">
                     {coaster.status === "operating"
                         ? `Operating since ${coaster.opened}`
