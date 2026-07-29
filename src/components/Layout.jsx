@@ -22,9 +22,15 @@ export default function Layout() {
           <NavLink to="/timeline" className={({ isActive }) => isActive ? "active" : ""}>Timeline</NavLink>
           <NavLink to="/decades" className={({ isActive }) => isActive ? "active" : ""}>Decades</NavLink>
           <NavLink to="/records" className={({ isActive }) => isActive ? "active" : ""}>Records</NavLink>
-          <ThemeToggle theme={theme} toggleTheme={toggleTheme} />
         </nav>
       </header>
+
+      <div className="theme-container">
+        <ThemeToggle
+          theme={theme}
+          toggleTheme={toggleTheme}
+        />
+      </div>
 
       <main>
         <Outlet />
