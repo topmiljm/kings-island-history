@@ -282,7 +282,7 @@ p {
 
 .park-maps-home-link {
   display: inline-block;
-  margin: 0 auto 5px;
+  margin: 10px auto 20px;
   color: var(--color-accent);
   text-decoration: none;
   font-size: 16px;
@@ -294,18 +294,16 @@ p {
 .park-maps-home-link:hover {
   border-bottom-color: var(--color-accent);
   font-style: italic;
-  word-spacing: 20%;
+  color: lightslategray;
 }
 
 .link-to-top-container {
   margin: 0 auto 10px;
-  /* border: 1px solid red; */
   width: 200px;
   color: var(--color-highlight);
 }
 
 .link-top-page:hover {
-  /* text-decoration: underline; */
   font-style: italic;
   color: lightslategray;
   cursor: pointer;
@@ -346,6 +344,10 @@ p {
 .park-map-thumb:hover {
   transform: translateY(-2px);
   border-color: var(--color-accent);
+  font-style: italic;
+  background-color: var(--color-bg-hover);
+  font-style: italic;
+  opacity: 90%;
 }
 
 .park-map-thumb img {
@@ -536,6 +538,7 @@ p {
   font-style: italic;
   cursor: grab;
   opacity: 90%;
+  border-color: var(--color-accent);
 }
 
 .coaster-card-logo {
@@ -1085,6 +1088,7 @@ p {
   background-color: var(--color-bg-hover);
   cursor: grab;
   font-style: italic;
+  border-color: var(--color-accent);
 }
 
 .decade-coaster-list {
@@ -1155,7 +1159,7 @@ p {
 }
 
 .records-page-list li:hover {
-  opacity: 70%;
+  opacity: 90%;
   cursor: grab;
   font-style: italic;
   border-left: 3px solid var(--color-border-subtle);
