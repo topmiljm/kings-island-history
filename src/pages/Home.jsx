@@ -65,7 +65,7 @@ export default function Home() {
         rethemed or retired:
       </p>
       <Link to="/maps" className="park-maps-home-link">
-        View all Kings Island park maps (1972-2026) →
+        View Kings Island park maps (1972-present)→
       </Link>
       <ul className="home-area-list-retired">
         {retiredAreas.map(area => {

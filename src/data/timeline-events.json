@@ -72,6 +72,13 @@
     "description": "Kings Island's annual late-season horror event (known as Halloween Haunt since 2007) begins."
   },
   {
+    "id": "winter-fest-returns",
+    "year": 2005,
+    "type": "event",
+    "title": "Winterfest Returns",
+    "description": "WinterFest returns after 13-year hiatus; cancelled again after just one season."
+  },
+  {
     "id": "nickelodeon-universe-created",
     "year": 2006,
     "type": "area",
@@ -100,7 +107,7 @@
     "year": 2017,
     "type": "event",
     "title": "WinterFest Returns",
-    "description": "WinterFest returns after a 25-year absence."
+    "description": "WinterFest returns again after 12-year hiatus; successfully held every season hereafter."
   },
   {
     "id": "area-72-created",
