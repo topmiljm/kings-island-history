@@ -8,6 +8,8 @@ import Timeline from "../pages/Timeline";
 import Records from "../pages/Records";
 import Decades from "../pages/Decades";
 import CoasterDetail from "../pages/CoasterDetail";
+import ParkMaps from "../pages/ParkMaps";
+
 
 export const router = createBrowserRouter([
   {
@@ -37,6 +39,10 @@ export const router = createBrowserRouter([
       {
         path: "decades",
         element: <Decades />
+      },
+      {
+        path: "maps",
+        element: <ParkMaps />
       }
     ]
   }

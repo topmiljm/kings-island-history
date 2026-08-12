@@ -1,5 +1,6 @@
 import { useState } from "react";
 import areas from "../data/areas.json";
+import { Link } from "react-router-dom";
 
 export default function Home() {
 
@@ -43,6 +44,7 @@ export default function Home() {
       )}
 
       <h3>Themed Areas</h3>
+
       <p>
         Kings Island currently features {activeAreas.length} distinctly themed areas, plus Soak City Water Park.
         With the exception of International Street and Oktoberfest, each themed area contains roller coasters:
@@ -57,10 +59,14 @@ export default function Home() {
       </ul>
 
       <h3>Areas History</h3>
+
       <p>
         Several of today's areas grew out of earlier sections of the park that have since been
         rethemed or retired:
       </p>
+      <Link to="/maps" className="park-maps-home-link">
+        View all Kings Island park maps (1972-2026) →
+      </Link>
       <ul className="home-area-list-retired">
         {retiredAreas.map(area => {
           const successor = areas.find(a => a.id === area.successorAreaId);
@@ -81,7 +87,7 @@ export default function Home() {
       <h3
         className="link-top-page"
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-        // style={{ marginTop: "20px", padding: "20px 0", display: "inline"}}
+      // style={{ marginTop: "20px", padding: "20px 0", display: "inline"}}
       >
         ^Explore the History of Kings Island's Roller Coasters...
       </h3>
