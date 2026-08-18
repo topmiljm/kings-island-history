@@ -96,6 +96,7 @@ export default function Timeline() {
             <div className="link-to-top-container">
                 <h3
                     className="link-top-page"
+                    title="Go To Top of Page"
                     onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
                 >
                     ^Climb To The Top...

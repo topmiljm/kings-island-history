@@ -11,17 +11,17 @@ export default function Layout() {
       <ScrollToTop />
       <header className="site-header">
         <div className="header-link">
-          <Link to="/">
+          <Link to="/" title="Home Page">
             <img src="/favicon.png" />
           </Link>
         </div>
         <h1>Kings Island Coaster History</h1>
 
         <nav>
-          <NavLink to="/coasters" className={({ isActive }) => isActive ? "active" : ""}>Coasters</NavLink>
-          <NavLink to="/timeline" className={({ isActive }) => isActive ? "active" : ""}>Timeline</NavLink>
-          <NavLink to="/decades" className={({ isActive }) => isActive ? "active" : ""}>Decades</NavLink>
-          <NavLink to="/records" className={({ isActive }) => isActive ? "active" : ""}>Records</NavLink>
+          <NavLink to="/coasters" title="Browse Kings Island's Roller Coasters" className={({ isActive }) => isActive ? "active" : ""}>Coasters</NavLink>
+          <NavLink to="/timeline" title="Selected Kings Island Timeline" className={({ isActive }) => isActive ? "active" : ""}>Timeline</NavLink>
+          <NavLink to="/decades" title="Roller Coaster Additions by Decade" className={({ isActive }) => isActive ? "active" : ""}>Decades</NavLink>
+          <NavLink to="/records" title="Kings Island Roller Coaster Records" className={({ isActive }) => isActive ? "active" : ""}>Records</NavLink>
         </nav>
       </header>
 

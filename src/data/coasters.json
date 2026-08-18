@@ -238,8 +238,23 @@
     "currentAreaId": "adventure-port",
     "areaHistory": [
       {
-        "areaId": "oktoberfest",
+        "areaId": "wild-animal-habitat",
         "from": 1991,
+        "to": 1993
+      },
+      {
+        "areaId": "adventure-village",
+        "from": 1994,
+        "to": 1998
+      },
+      {
+        "areaId": "action-zone",
+        "from": 1999,
+        "to": 1999
+      },
+      {
+        "areaId": "oktoberfest",
+        "from": 2000,
         "to": 2022
       },
       {
@@ -290,8 +305,13 @@
     "currentAreaId": "action-zone",
     "areaHistory": [
       {
-        "areaId": "adventure-village",
+        "areaId": "wild-animal-habitat",
         "from": 1993,
+        "to": 1993
+      },
+      {
+        "areaId": "adventure-village",
+        "from": 1994,
         "to": 1998
       },
       {

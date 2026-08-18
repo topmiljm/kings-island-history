@@ -18,6 +18,7 @@ export default function Home() {
     <div className="home">
       <img
         className="home-img"
+        title="The Beast"
         src="/images/ki-coaster.png"
       >
       </img>
@@ -31,6 +32,7 @@ export default function Home() {
       <figure>
         <img
           className="park-map-img"
+          title="Kings Island 2025 Park Map"
           src="/images/ki park map-2.png"
           onClick={setPreviewImage}
         >
@@ -64,7 +66,7 @@ export default function Home() {
         Several of today's areas grew out of earlier sections of the park that have since been
         rethemed or retired:
       </p>
-      <Link to="/maps" className="park-maps-home-link">
+      <Link to="/maps" title="Browse Kings Island's Park Maps" className="park-maps-home-link">
         View Kings Island park maps (1972-present)→
       </Link>
       <ul className="home-area-list-retired">
@@ -86,6 +88,7 @@ export default function Home() {
 
       <h3
         className="link-top-page"
+        title="Go To Top of Page"
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
       // style={{ marginTop: "20px", padding: "20px 0", display: "inline"}}
       >
